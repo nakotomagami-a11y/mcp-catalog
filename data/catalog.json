@@ -1,0 +1,4512 @@
+{
+  "categories": [
+    {
+      "id": "all",
+      "label": "All",
+      "color": "#06d6a0",
+      "icon": "+"
+    },
+    {
+      "id": "official",
+      "label": "Official",
+      "color": "#d4a373",
+      "icon": "S"
+    },
+    {
+      "id": "developer-tools",
+      "label": "Developer Tools",
+      "color": "#06d6a0",
+      "icon": "{}"
+    },
+    {
+      "id": "databases",
+      "label": "Databases",
+      "color": "#118ab2",
+      "icon": "DB"
+    },
+    {
+      "id": "cloud",
+      "label": "Cloud & Infra",
+      "color": "#7209b7",
+      "icon": "C"
+    },
+    {
+      "id": "creative",
+      "label": "Creative & Design",
+      "color": "#f72585",
+      "icon": "A"
+    },
+    {
+      "id": "game-engines",
+      "label": "Game Engines",
+      "color": "#ff6b35",
+      "icon": "G"
+    },
+    {
+      "id": "ai-ml",
+      "label": "AI & ML",
+      "color": "#4cc9f0",
+      "icon": "AI"
+    },
+    {
+      "id": "productivity",
+      "label": "Productivity",
+      "color": "#ffd166",
+      "icon": "P"
+    },
+    {
+      "id": "communication",
+      "label": "Communication",
+      "color": "#06d6a0",
+      "icon": "@"
+    },
+    {
+      "id": "commerce",
+      "label": "Commerce & Finance",
+      "color": "#ef476f",
+      "icon": "$"
+    },
+    {
+      "id": "search-web",
+      "label": "Search & Web",
+      "color": "#073b4c",
+      "icon": "?"
+    },
+    {
+      "id": "platforms",
+      "label": "Platforms",
+      "color": "#8338ec",
+      "icon": "~"
+    },
+    {
+      "id": "science",
+      "label": "Science & IoT",
+      "color": "#3a86a7",
+      "icon": "!"
+    },
+    {
+      "id": "registries",
+      "label": "Registries",
+      "color": "#9b5de5",
+      "icon": "#"
+    },
+    {
+      "id": "writing",
+      "label": "Writing & Content",
+      "color": "#9b5de5",
+      "icon": "W"
+    },
+    {
+      "id": "education",
+      "label": "Education",
+      "color": "#2ec4b6",
+      "icon": "E"
+    }
+  ],
+  "entries": [
+    {
+      "name": "Filesystem",
+      "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/filesystem",
+      "description": "Secure file operations with configurable access controls for local file system access.",
+      "category": "official",
+      "tags": [
+        "files",
+        "local",
+        "access-control"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Git",
+      "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/git",
+      "description": "Tools to read, search, and manipulate Git repositories.",
+      "category": "official",
+      "tags": [
+        "git",
+        "version-control",
+        "repos"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Fetch",
+      "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/fetch",
+      "description": "Web content fetching and conversion for efficient LLM usage.",
+      "category": "official",
+      "tags": [
+        "web",
+        "fetch",
+        "http"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Memory",
+      "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/memory",
+      "description": "Knowledge graph-based persistent memory system for context retention.",
+      "category": "official",
+      "tags": [
+        "memory",
+        "knowledge-graph",
+        "persistence"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Sequential Thinking",
+      "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/sequentialthinking",
+      "description": "Dynamic and reflective problem-solving through structured thought sequences.",
+      "category": "official",
+      "tags": [
+        "reasoning",
+        "thinking",
+        "problem-solving"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Time",
+      "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/time",
+      "description": "Time and timezone conversion capabilities for AI agents.",
+      "category": "official",
+      "tags": [
+        "time",
+        "timezone",
+        "conversion"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Everything",
+      "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/everything",
+      "description": "Reference/test server with prompts, resources, and tools for testing MCP clients.",
+      "category": "official",
+      "tags": [
+        "testing",
+        "reference",
+        "debug"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "GitHub MCP Server",
+      "url": "https://github.com/github/github-mcp-server",
+      "description": "Official GitHub MCP with 80+ tools for repos, PRs, issues, actions, and project management.",
+      "category": "developer-tools",
+      "tags": [
+        "github",
+        "repos",
+        "pull-requests",
+        "issues",
+        "ci/cd"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "GitLab MCP",
+      "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/gitlab",
+      "description": "GitLab platform integration for project management and CI/CD operations.",
+      "category": "developer-tools",
+      "tags": [
+        "gitlab",
+        "ci/cd",
+        "repos"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "JetBrains MCP Server",
+      "url": "https://github.com/JetBrains/mcp-jetbrains",
+      "description": "Built-in MCP server in all IntelliJ-based IDEs (2025.2+) for code analysis, terminal, refactoring.",
+      "category": "developer-tools",
+      "tags": [
+        "ide",
+        "intellij",
+        "code-analysis",
+        "refactoring"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Sentry MCP",
+      "url": "https://github.com/getsentry/sentry-mcp",
+      "description": "Application monitoring, error tracking, and performance monitoring integration.",
+      "category": "developer-tools",
+      "tags": [
+        "monitoring",
+        "errors",
+        "performance"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "AgentOps",
+      "url": "https://github.com/AgentOps-AI/agentops-mcp",
+      "description": "Observability and tracing for debugging AI agents in production.",
+      "category": "developer-tools",
+      "tags": [
+        "observability",
+        "tracing",
+        "debugging"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Arize Phoenix",
+      "url": "https://github.com/Arize-ai/phoenix/tree/main/js/packages/phoenix-mcp",
+      "description": "Inspect traces, manage prompts, curate datasets for AI observability.",
+      "category": "developer-tools",
+      "tags": [
+        "observability",
+        "traces",
+        "prompts"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Axiom",
+      "url": "https://github.com/axiomhq/mcp-server-axiom",
+      "description": "Query and analyze logs, traces, and event data in Axiom.",
+      "category": "developer-tools",
+      "tags": [
+        "logs",
+        "traces",
+        "analytics"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Raygun",
+      "url": "https://github.com/MindscapeHQ/mcp-server-raygun",
+      "description": "Raygun API integration for crash reporting and real user monitoring.",
+      "category": "developer-tools",
+      "tags": [
+        "crash-reporting",
+        "monitoring",
+        "rum"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "APIMatic Validator",
+      "url": "https://github.com/apimatic/apimatic-validator-mcp",
+      "description": "Validate OpenAPI specifications using APIMatic standards.",
+      "category": "developer-tools",
+      "tags": [
+        "openapi",
+        "validation",
+        "api"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Apollo GraphQL",
+      "url": "https://github.com/apollographql/apollo-mcp-server",
+      "description": "Connect GraphQL APIs to AI agents via Apollo federation.",
+      "category": "developer-tools",
+      "tags": [
+        "graphql",
+        "api",
+        "federation"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Appium",
+      "url": "https://github.com/appium/appium-mcp",
+      "description": "Mobile development and automation for iOS, Android, simulators, and emulators.",
+      "category": "developer-tools",
+      "tags": [
+        "mobile",
+        "testing",
+        "automation",
+        "ios",
+        "android"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Phabricator",
+      "url": "https://github.com/baba786/phabricator-mcp-server",
+      "description": "Phabricator API integration for repository and project management.",
+      "category": "developer-tools",
+      "tags": [
+        "phabricator",
+        "code-review",
+        "project-management"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "AgentRPC",
+      "url": "https://github.com/agentrpc/agentrpc",
+      "description": "Connect to any function, any language, across network boundaries.",
+      "category": "developer-tools",
+      "tags": [
+        "rpc",
+        "cross-language",
+        "networking"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Metoro",
+      "url": "https://github.com/metoro-io/metoro-mcp-server",
+      "description": "Query and interact with Kubernetes environments monitored by Metoro.",
+      "category": "developer-tools",
+      "tags": [
+        "kubernetes",
+        "monitoring",
+        "observability"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "AtomGit",
+      "url": "https://atomgit.com/atomgit-open-source-ecosystem/atomgit-mcp-server",
+      "description": "Repository management, PRs, issues, branches, and labels on AtomGit.",
+      "category": "developer-tools",
+      "tags": [
+        "git",
+        "repos",
+        "issues"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "PostgreSQL (pgmcp)",
+      "url": "https://github.com/modelcontextprotocol/servers/tree/main/src/postgres",
+      "description": "Natural language PostgreSQL queries with automatic streaming and read-only safety.",
+      "category": "databases",
+      "tags": [
+        "postgresql",
+        "sql",
+        "queries"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "MySQL",
+      "url": "https://github.com/designcomputer/mysql_mcp_server",
+      "description": "MySQL integration with configurable access controls and schema inspection.",
+      "category": "databases",
+      "tags": [
+        "mysql",
+        "sql",
+        "schema"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "MongoDB",
+      "url": "https://github.com/mongodb-js/mongodb-mcp-server",
+      "description": "Official MCP server for interacting with MongoDB databases including Atlas.",
+      "category": "databases",
+      "tags": [
+        "mongodb",
+        "nosql",
+        "atlas"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Redis",
+      "url": "https://github.com/redis/mcp-redis",
+      "description": "Official Redis MCP server for natural language data management and search.",
+      "category": "databases",
+      "tags": [
+        "redis",
+        "cache",
+        "search"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "BigQuery",
+      "url": "https://github.com/LucasHild/mcp-server-bigquery",
+      "description": "Google BigQuery integration with schema inspection and query capabilities.",
+      "category": "databases",
+      "tags": [
+        "bigquery",
+        "analytics",
+        "google-cloud"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Snowflake",
+      "url": "https://github.com/Snowflake-Labs/mcp",
+      "description": "Official Snowflake MCP server for querying structured/unstructured data and Cortex Agents.",
+      "category": "databases",
+      "tags": [
+        "snowflake",
+        "data-warehouse",
+        "cortex"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "DuckDB",
+      "url": "https://github.com/ktanaka101/mcp-server-duckdb",
+      "description": "DuckDB integration with schema inspection and query support.",
+      "category": "databases",
+      "tags": [
+        "duckdb",
+        "analytics",
+        "embedded"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "SQLite",
+      "url": "https://github.com/modelcontextprotocol/servers-archived",
+      "description": "SQLite database operations with built-in analysis features.",
+      "category": "databases",
+      "tags": [
+        "sqlite",
+        "embedded",
+        "sql"
+      ],
+      "source": "official",
+      "status": "archived",
+      "platform": "mcp"
+    },
+    {
+      "name": "Astra DB (DataStax)",
+      "url": "https://github.com/datastax/astra-db-mcp",
+      "description": "Comprehensive tools for managing collections and documents in Astra DB.",
+      "category": "databases",
+      "tags": [
+        "cassandra",
+        "nosql",
+        "datastax"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Neon",
+      "url": "https://github.com/neondatabase/mcp-server-neon",
+      "description": "Neon serverless Postgres MCP server for natural language database interactions.",
+      "category": "databases",
+      "tags": [
+        "postgresql",
+        "serverless",
+        "neon"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Qdrant",
+      "url": "https://github.com/qdrant/mcp-server-qdrant",
+      "description": "Qdrant vector search engine integration for semantic memory storage and retrieval.",
+      "category": "databases",
+      "tags": [
+        "vector-db",
+        "semantic-search",
+        "embeddings"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "TiDB",
+      "url": "https://github.com/c4pt0r/mcp-server-tidb",
+      "description": "MCP server for TiDB serverless distributed database.",
+      "category": "databases",
+      "tags": [
+        "tidb",
+        "distributed",
+        "sql"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Couchbase",
+      "url": "https://github.com/Couchbase-Ecosystem/mcp-server-couchbase",
+      "description": "Couchbase cluster interaction with natural language querying.",
+      "category": "databases",
+      "tags": [
+        "couchbase",
+        "nosql",
+        "n1ql"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Airtable",
+      "url": "https://github.com/domdomegg/airtable-mcp-server",
+      "description": "Read and write access to Airtable databases with schema inspection.",
+      "category": "databases",
+      "tags": [
+        "airtable",
+        "spreadsheet",
+        "low-code"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Apache Doris",
+      "url": "https://github.com/apache/doris-mcp-server",
+      "description": "MPP-based real-time data warehouse operations via Apache Doris.",
+      "category": "databases",
+      "tags": [
+        "doris",
+        "data-warehouse",
+        "mpp"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Apache Pinot",
+      "url": "https://github.com/startreedata/mcp-pinot",
+      "description": "Real-time analytics queries on Apache Pinot OLAP datastore.",
+      "category": "databases",
+      "tags": [
+        "pinot",
+        "olap",
+        "real-time"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Legion MCP (Universal DB)",
+      "url": "https://github.com/TheRaLabs/legion-mcp",
+      "description": "Universal database server supporting PostgreSQL, MySQL, BigQuery, Oracle, SQLite, and more.",
+      "category": "databases",
+      "tags": [
+        "multi-db",
+        "universal",
+        "sql"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "NocoDB",
+      "url": "https://github.com/edwinbernadus/nocodb-mcp-server",
+      "description": "Read and write access to NocoDB, the open-source Airtable alternative.",
+      "category": "databases",
+      "tags": [
+        "nocodb",
+        "spreadsheet",
+        "open-source"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Excel MCP Server",
+      "url": "https://github.com/haris-musa/excel-mcp-server",
+      "description": "Excel workbook operations including data reading/writing and pivot tables.",
+      "category": "databases",
+      "tags": [
+        "excel",
+        "spreadsheet",
+        "pivot-tables"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Alkemi",
+      "url": "https://github.com/alkemi-ai/alkemi-mcp",
+      "description": "Query Snowflake, BigQuery, and Databricks data products in one interface.",
+      "category": "databases",
+      "tags": [
+        "multi-cloud",
+        "snowflake",
+        "bigquery",
+        "databricks"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Baserow",
+      "url": "https://gitlab.com/baserow/baserow/-/tree/develop/backend/src/baserow/api/mcp",
+      "description": "Query data from Baserow open-source database platform.",
+      "category": "databases",
+      "tags": [
+        "baserow",
+        "open-source",
+        "database"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Bauplan",
+      "url": "https://github.com/BauplanLabs/bauplan-mcp-server",
+      "description": "Manage data lakehouse: query tables, create branches, run pipelines.",
+      "category": "databases",
+      "tags": [
+        "lakehouse",
+        "pipelines",
+        "data-engineering"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "MindsDB",
+      "url": "https://github.com/mindsdb/mindsdb",
+      "description": "Connect and unify data across 200+ platforms as a single MCP server.",
+      "category": "databases",
+      "tags": [
+        "multi-platform",
+        "ai-tables",
+        "unification"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "AWS MCP Servers",
+      "url": "https://github.com/awslabs/mcp",
+      "description": "Specialized MCP servers bringing AWS best practices to AI-assisted development.",
+      "category": "cloud",
+      "tags": [
+        "aws",
+        "s3",
+        "lambda",
+        "ec2"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Azure MCP Server",
+      "url": "https://github.com/microsoft/mcp/tree/main/servers/Azure.Mcp.Server",
+      "description": "Access Azure Storage, Cosmos DB, Azure CLI, and more Azure services.",
+      "category": "cloud",
+      "tags": [
+        "azure",
+        "microsoft",
+        "cosmos-db"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Azure DevOps",
+      "url": "https://github.com/microsoft/azure-devops-mcp",
+      "description": "Interact with Azure DevOps repositories, work items, builds, and releases.",
+      "category": "cloud",
+      "tags": [
+        "azure",
+        "devops",
+        "ci/cd"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Google Cloud MCP",
+      "url": "https://cloud.google.com/products/mcp",
+      "description": "Official GCP MCP servers for datasets, VMs, Kubernetes, and more.",
+      "category": "cloud",
+      "tags": [
+        "gcp",
+        "google-cloud",
+        "compute"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Kubernetes MCP Server",
+      "url": "https://github.com/containers/kubernetes-mcp-server",
+      "description": "Model Context Protocol server for Kubernetes and OpenShift management.",
+      "category": "cloud",
+      "tags": [
+        "kubernetes",
+        "k8s",
+        "openshift",
+        "containers"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Docker MCP Server",
+      "url": "https://github.com/QuantGeekDev/docker-mcp",
+      "description": "Docker operations for container and compose stack management.",
+      "category": "cloud",
+      "tags": [
+        "docker",
+        "containers",
+        "compose"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Alibaba Cloud OPS",
+      "url": "https://github.com/aliyun/alibaba-cloud-ops-mcp-server",
+      "description": "Manage Alibaba Cloud resource lifecycles with CloudOps.",
+      "category": "cloud",
+      "tags": [
+        "alibaba",
+        "aliyun",
+        "cloud-ops"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Aiven",
+      "url": "https://github.com/Aiven-Open/mcp-aiven",
+      "description": "Manage PostgreSQL, Kafka, ClickHouse, and OpenSearch services on Aiven.",
+      "category": "cloud",
+      "tags": [
+        "aiven",
+        "kafka",
+        "clickhouse"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "E2B",
+      "url": "https://github.com/e2b-dev/mcp-server",
+      "description": "Secure cloud development environments for AI agent code execution.",
+      "category": "cloud",
+      "tags": [
+        "sandbox",
+        "code-execution",
+        "cloud"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Microsandbox",
+      "url": "https://github.com/microsandbox/microsandbox",
+      "description": "Self-hosted platform for secure AI code execution, data analysis, browser use.",
+      "category": "cloud",
+      "tags": [
+        "sandbox",
+        "self-hosted",
+        "security"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Figma MCP Server",
+      "url": "https://github.com/figma/mcp-server-guide",
+      "description": "Official Figma MCP for extracting design context, generating code from frames.",
+      "category": "creative",
+      "tags": [
+        "figma",
+        "design",
+        "ui",
+        "code-generation"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Figma Context MCP",
+      "url": "https://github.com/GLips/Figma-Context-MCP",
+      "description": "Provide Figma layout information to AI coding agents like Cursor.",
+      "category": "creative",
+      "tags": [
+        "figma",
+        "layout",
+        "cursor"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "21st.dev Magic",
+      "url": "https://github.com/21st-dev/magic-mcp",
+      "description": "Create crafted UI components inspired by top design engineers.",
+      "category": "creative",
+      "tags": [
+        "ui-components",
+        "design",
+        "generation"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Blender MCP",
+      "url": "https://github.com/ahujasid/blender-mcp",
+      "description": "Blender integration for AI-assisted 3D modeling and scene creation.",
+      "category": "creative",
+      "tags": [
+        "blender",
+        "3d",
+        "modeling",
+        "scenes"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "DaVinci Resolve MCP",
+      "url": "https://github.com/samuelgursky/davinci-resolve-mcp",
+      "description": "DaVinci Resolve video editing integration for AI-assisted post-production.",
+      "category": "creative",
+      "tags": [
+        "video",
+        "editing",
+        "post-production"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "ComfyUI (Comfy Pilot)",
+      "url": "https://github.com/ConstantineB6/comfy-pilot",
+      "description": "ComfyUI node-based workflow control for AI image generation.",
+      "category": "creative",
+      "tags": [
+        "comfyui",
+        "image-generation",
+        "workflows"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Fal.ai MCP Server",
+      "url": "https://github.com/raveenb/fal-mcp-server",
+      "description": "AI images, videos, and music generation via Fal.ai models.",
+      "category": "creative",
+      "tags": [
+        "fal.ai",
+        "image-generation",
+        "video"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Manim MCP Server",
+      "url": "https://github.com/abhiemj/manim-mcp-server",
+      "description": "Mathematical animation generation using the Manim library.",
+      "category": "creative",
+      "tags": [
+        "manim",
+        "math",
+        "animation"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Video Editing MCP",
+      "url": "https://github.com/burningion/video-editing-mcp",
+      "description": "Video editing with analysis and generation capabilities.",
+      "category": "creative",
+      "tags": [
+        "video",
+        "editing",
+        "analysis"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Autodesk Maya MCP",
+      "url": "https://github.com/PatrickPalmer/MayaMCP",
+      "description": "Autodesk Maya 3D animation and modeling integration.",
+      "category": "creative",
+      "tags": [
+        "maya",
+        "3d",
+        "animation"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "JupyterCAD MCP",
+      "url": "https://github.com/asmith26/jupytercad-mcp",
+      "description": "Control JupyterCAD using natural language for 3D CAD modeling.",
+      "category": "creative",
+      "tags": [
+        "cad",
+        "3d",
+        "jupyter"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Fusion 360 Text-to-Model",
+      "url": "https://github.com/mikan-atomoki/text-to-model",
+      "description": "Generate 3D models in Fusion 360 from text descriptions.",
+      "category": "creative",
+      "tags": [
+        "fusion-360",
+        "3d",
+        "text-to-3d"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "REAPER DAW MCP",
+      "url": "https://github.com/TwelveTake-Studios/reaper-mcp",
+      "description": "REAPER digital audio workstation control for music production.",
+      "category": "creative",
+      "tags": [
+        "reaper",
+        "daw",
+        "music",
+        "audio"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Aseprite MCP",
+      "url": "https://github.com/diivi/aseprite-mcp",
+      "description": "Aseprite API for AI-assisted pixel art creation and sprite editing.",
+      "category": "creative",
+      "tags": [
+        "pixel-art",
+        "sprites",
+        "aseprite"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Agent Media",
+      "url": "https://github.com/yuvalsuede/agent-media",
+      "description": "Video and image generation with 7 model providers.",
+      "category": "creative",
+      "tags": [
+        "media",
+        "generation",
+        "multi-provider"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "StudioMCPHub",
+      "url": "https://github.com/codex-curator/studiomcphub",
+      "description": "32 creative AI tools for image generation, editing, and manipulation.",
+      "category": "creative",
+      "tags": [
+        "image",
+        "editing",
+        "creative-suite"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "SVG Maker MCP",
+      "url": "https://github.com/GenWaveLLC/svgmaker-mcp",
+      "description": "AI-driven SVG generation and editing for vector graphics.",
+      "category": "creative",
+      "tags": [
+        "svg",
+        "vector",
+        "graphics"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "ShaderToy MCP",
+      "url": "https://github.com/wilsonchenghy/ShaderToy-MCP",
+      "description": "GLSL shader generation and experimentation via ShaderToy.",
+      "category": "creative",
+      "tags": [
+        "glsl",
+        "shaders",
+        "graphics"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Godot MCP",
+      "url": "https://github.com/Coding-Solo/godot-mcp",
+      "description": "Interface with Godot engine: launch editor, run projects, capture debug output.",
+      "category": "game-engines",
+      "tags": [
+        "godot",
+        "game-dev",
+        "editor",
+        "debugging"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Godot Engine Full Control",
+      "url": "https://github.com/tugcantopaloglu/godot-engine-full-control",
+      "description": "Full control MCP server for Godot with scene management and scripting.",
+      "category": "game-engines",
+      "tags": [
+        "godot",
+        "scenes",
+        "gdscript"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Unity MCP (Arodoid)",
+      "url": "https://github.com/arodoid/unity-mcp",
+      "description": "Unity editor plugin with real-time state monitoring, C# command execution, and log access.",
+      "category": "game-engines",
+      "tags": [
+        "unity",
+        "c#",
+        "editor",
+        "monitoring"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Unity Code MCP Server",
+      "url": "https://github.com/Signal-Loop/UnityCodeMCPServer",
+      "description": "Execute C# scripts in Unity Editor with full API access.",
+      "category": "game-engines",
+      "tags": [
+        "unity",
+        "c#",
+        "scripting"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Unity MCP Beta",
+      "url": "https://github.com/VR-Jobs/UnityMCPbeta",
+      "description": "Unity and LLM communication via MCP protocol for game development.",
+      "category": "game-engines",
+      "tags": [
+        "unity",
+        "llm",
+        "game-dev"
+      ],
+      "source": "community",
+      "status": "beta",
+      "platform": "mcp"
+    },
+    {
+      "name": "Unreal Analyzer MCP",
+      "url": "https://github.com/ayeletstudioindia/unreal-analyzer-mcp",
+      "description": "Source code analysis for Unreal Engine 5 codebases.",
+      "category": "game-engines",
+      "tags": [
+        "unreal",
+        "ue5",
+        "code-analysis"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Unreal MCP Bridge",
+      "url": "https://github.com/appleweed/UnrealMCPBridge",
+      "description": "Unreal Engine Python API access for AI clients.",
+      "category": "game-engines",
+      "tags": [
+        "unreal",
+        "python",
+        "api"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Unreal Engine MCP (runreal)",
+      "url": "https://github.com/runreal/unreal-mcp",
+      "description": "Generative AI plugin for UE with scene control and blueprint generation.",
+      "category": "game-engines",
+      "tags": [
+        "unreal",
+        "blueprints",
+        "scene-control",
+        "generative"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Defold MCP",
+      "url": "https://github.com/ChadAragorn/defold-mcp",
+      "description": "Defold game engine automation and project management.",
+      "category": "game-engines",
+      "tags": [
+        "defold",
+        "automation",
+        "game-dev"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Ebitengine MCP",
+      "url": "https://github.com/sedyh/ebitengine-mcp",
+      "description": "Ebitengine (Go game library) integration for enhanced game dev control.",
+      "category": "game-engines",
+      "tags": [
+        "ebitengine",
+        "go",
+        "2d-games"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "AltTester (Unity/Unreal)",
+      "url": "https://alttester.com/docs/desktop/latest/pages/ai-extension.html",
+      "description": "Test Unity or Unreal games with AltTester automation framework.",
+      "category": "game-engines",
+      "tags": [
+        "testing",
+        "unity",
+        "unreal",
+        "automation"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "NVIDIA Isaac Sim MCP",
+      "url": "https://github.com/omni-mcp/isaac-sim-mcp",
+      "description": "Control NVIDIA Isaac Sim robotics simulator with natural language.",
+      "category": "game-engines",
+      "tags": [
+        "nvidia",
+        "robotics",
+        "simulation"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "OpenAI Bridge",
+      "url": "https://github.com/jaspertvdm/mcp-server-openai-bridge",
+      "description": "Bridge to OpenAI API for GPT-4, embeddings, image generation, and vision.",
+      "category": "ai-ml",
+      "tags": [
+        "openai",
+        "gpt-4",
+        "embeddings",
+        "dalle"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "OpenAI GPT Image MCP",
+      "url": "https://github.com/SureScaleAI/openai-gpt-image-mcp",
+      "description": "OpenAI GPT image generation and editing capabilities.",
+      "category": "ai-ml",
+      "tags": [
+        "openai",
+        "image-generation",
+        "editing"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Hugging Face MCP",
+      "url": "https://huggingface.co/blog/Kseniase/mcp",
+      "description": "Access Hugging Face ecosystem of models, datasets, and Spaces.",
+      "category": "ai-ml",
+      "tags": [
+        "huggingface",
+        "models",
+        "datasets"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Ollama Bridge",
+      "url": "https://github.com/jaspertvdm/mcp-server-ollama-bridge",
+      "description": "Bridge to local Ollama LLM server for running models locally.",
+      "category": "ai-ml",
+      "tags": [
+        "ollama",
+        "local",
+        "llm"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Google Gemini Bridge",
+      "url": "https://github.com/jaspertvdm/mcp-server-gemini-bridge",
+      "description": "Bridge to Google Gemini API for multimodal AI capabilities.",
+      "category": "ai-ml",
+      "tags": [
+        "gemini",
+        "google",
+        "multimodal"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Grok MCP (xAI)",
+      "url": "https://github.com/merterbak/Grok-MCP",
+      "description": "xAI's Grok API integration with image generation and vision.",
+      "category": "ai-ml",
+      "tags": [
+        "grok",
+        "xai",
+        "vision"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "DeepSeek MCP Server",
+      "url": "https://github.com/arikusi/deepseek-mcp-server",
+      "description": "DeepSeek AI integration with chat, reasoning, and function calling.",
+      "category": "ai-ml",
+      "tags": [
+        "deepseek",
+        "reasoning",
+        "chat"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "LangChain MCP Adapters",
+      "url": "https://github.com/langchain-ai/langchain-mcp-adapters",
+      "description": "Convert MCP tools into LangChain-native tools for agent workflows.",
+      "category": "ai-ml",
+      "tags": [
+        "langchain",
+        "agents",
+        "adapters"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Replicate MCP",
+      "url": "https://replicate.com/docs/topics/mcp",
+      "description": "Run thousands of open-source ML models via Replicate cloud.",
+      "category": "ai-ml",
+      "tags": [
+        "replicate",
+        "ml-models",
+        "cloud"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Atla MCP Server",
+      "url": "https://github.com/atla-ai/atla-mcp-server",
+      "description": "Interact with Atla API for AI model evaluation and benchmarking.",
+      "category": "ai-ml",
+      "tags": [
+        "evaluation",
+        "benchmarks",
+        "testing"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Imagen 3 MCP",
+      "url": "https://github.com/hamflx/imagen3-mcp",
+      "description": "Image generation using Google's Imagen 3.0 API.",
+      "category": "ai-ml",
+      "tags": [
+        "imagen",
+        "google",
+        "image-generation"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Neurolink (Juspay)",
+      "url": "https://github.com/juspay/neurolink",
+      "description": "Edge-first platform unifying 12 providers and 100+ AI models.",
+      "category": "ai-ml",
+      "tags": [
+        "multi-provider",
+        "edge",
+        "unified"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "BlockRun AI",
+      "url": "https://github.com/blockrunai/blockrun-mcp",
+      "description": "Access 30+ AI models with pay-per-use via micropayments.",
+      "category": "ai-ml",
+      "tags": [
+        "pay-per-use",
+        "multi-model",
+        "micropayments"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Notion",
+      "url": "https://github.com/makenotion/notion-mcp-server",
+      "description": "Official Notion MCP server for pages, databases, and workspace management.",
+      "category": "productivity",
+      "tags": [
+        "notion",
+        "notes",
+        "databases",
+        "workspace"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Atlassian (Jira + Confluence)",
+      "url": "https://www.atlassian.com/platform/remote-mcp-server",
+      "description": "Securely interact with Jira work items and Confluence pages.",
+      "category": "productivity",
+      "tags": [
+        "jira",
+        "confluence",
+        "project-management"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Linear",
+      "url": "https://github.com/jerhadf/linear-mcp-server",
+      "description": "Linear issue tracking system integration for project management.",
+      "category": "productivity",
+      "tags": [
+        "linear",
+        "issues",
+        "project-management"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Todoist",
+      "url": "https://github.com/stanislavlysenko0912/todoist-mcp-server",
+      "description": "Todoist task management with full REST API v2 support and batch processing.",
+      "category": "productivity",
+      "tags": [
+        "todoist",
+        "tasks",
+        "todo"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Obsidian",
+      "url": "https://github.com/smithery-ai/obsidian-mcp",
+      "description": "Interact with Obsidian vaults via REST API for note management.",
+      "category": "productivity",
+      "tags": [
+        "obsidian",
+        "notes",
+        "markdown"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Google Calendar",
+      "url": "https://github.com/nspaeth/google-calendar-mcp",
+      "description": "Google Calendar integration for event management and scheduling.",
+      "category": "productivity",
+      "tags": [
+        "google",
+        "calendar",
+        "scheduling"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "2slides",
+      "url": "https://github.com/2slides/2slides-mcp",
+      "description": "Convert content into presentations and generate slides automatically.",
+      "category": "productivity",
+      "tags": [
+        "presentations",
+        "slides",
+        "generation"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Anytype",
+      "url": "https://github.com/anyproto/anytype-mcp",
+      "description": "Organize objects and lists through natural language interaction.",
+      "category": "productivity",
+      "tags": [
+        "anytype",
+        "objects",
+        "organization"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Archbee",
+      "url": "https://www.npmjs.com/package/@archbee/mcp",
+      "description": "Documentation platform with AI-powered answers and search.",
+      "category": "productivity",
+      "tags": [
+        "docs",
+        "documentation",
+        "knowledge-base"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Microsoft 365",
+      "url": "https://github.com/softeria/ms-365-mcp-server",
+      "description": "Connect to Microsoft Office, Outlook, and the full M365 suite via Graph API.",
+      "category": "productivity",
+      "tags": [
+        "microsoft",
+        "office",
+        "outlook",
+        "graph-api"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Slack MCP Server",
+      "url": "https://github.com/korotovsky/slack-mcp-server",
+      "description": "Full-featured Slack integration with Stdio and SSE transports, proxy support.",
+      "category": "communication",
+      "tags": [
+        "slack",
+        "messaging",
+        "channels"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Discord MCP",
+      "url": "https://github.com/v-3/discord-mcp",
+      "description": "Discord REST API integration for reading/posting messages, managing channels.",
+      "category": "communication",
+      "tags": [
+        "discord",
+        "messaging",
+        "channels"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Twilio MCP Server",
+      "url": "https://github.com/twilio/twilio-mcp",
+      "description": "SMS and voice capabilities through Twilio API for AI agents.",
+      "category": "communication",
+      "tags": [
+        "twilio",
+        "sms",
+        "voice"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "SendGrid MCP",
+      "url": "https://github.com/Garoth/sendgrid-mcp",
+      "description": "Twilio SendGrid email automation with contact lists, campaigns, and metrics.",
+      "category": "communication",
+      "tags": [
+        "email",
+        "sendgrid",
+        "campaigns"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "LINE Official Account",
+      "url": "https://github.com/line/line-bot-mcp-server",
+      "description": "LINE Messaging API integration to connect AI agents to LINE.",
+      "category": "communication",
+      "tags": [
+        "line",
+        "messaging",
+        "chatbot"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Carbon Voice",
+      "url": "https://github.com/PhononX/cv-mcp-server",
+      "description": "Connect AI agents to Carbon Voice for voice messages and conversations.",
+      "category": "communication",
+      "tags": [
+        "voice",
+        "conversations",
+        "speech"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "ntfy",
+      "url": "https://github.com/gitmotion/ntfy-me-mcp",
+      "description": "Send/fetch push notifications to self-hosted ntfy.sh server.",
+      "category": "communication",
+      "tags": [
+        "notifications",
+        "push",
+        "self-hosted"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Stripe MCP Server",
+      "url": "https://docs.stripe.com/mcp",
+      "description": "Official Stripe MCP for payments, subscriptions, invoices, and knowledge base.",
+      "category": "commerce",
+      "tags": [
+        "stripe",
+        "payments",
+        "subscriptions"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Shopify MCP",
+      "url": "https://shopify.dev/docs/api/mcp",
+      "description": "Built-in MCP endpoint on all Shopify stores for product, cart, and checkout.",
+      "category": "commerce",
+      "tags": [
+        "shopify",
+        "e-commerce",
+        "products"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Alpaca",
+      "url": "https://github.com/alpacahq/alpaca-mcp-server",
+      "description": "Trade stocks/options and analyze market data via Alpaca.",
+      "category": "commerce",
+      "tags": [
+        "stocks",
+        "trading",
+        "market-data"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "AlphaVantage",
+      "url": "https://mcp.alphavantage.co/",
+      "description": "Connect to 100+ APIs for financial market data and analytics.",
+      "category": "commerce",
+      "tags": [
+        "finance",
+        "market-data",
+        "api"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Airwallex Developer",
+      "url": "https://www.npmjs.com/package/@airwallex/developer-mcp",
+      "description": "Tools for integrating with Airwallex global payment APIs.",
+      "category": "commerce",
+      "tags": [
+        "payments",
+        "global",
+        "airwallex"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Bitnovo Pay",
+      "url": "https://github.com/bitnovo/mcp-bitnovo-pay",
+      "description": "Cryptocurrency payment integration for Bitcoin, Ethereum, and more.",
+      "category": "commerce",
+      "tags": [
+        "crypto",
+        "bitcoin",
+        "ethereum",
+        "payments"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Armor Crypto MCP",
+      "url": "https://github.com/armorwallet/armor-crypto-mcp",
+      "description": "Blockchain interaction, staking, DeFi, swaps, and wallet management.",
+      "category": "commerce",
+      "tags": [
+        "crypto",
+        "defi",
+        "staking",
+        "wallet"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Bankless Onchain",
+      "url": "https://github.com/bankless/onchain-mcp",
+      "description": "Query ERC20 tokens, transaction history, and smart contract state.",
+      "category": "commerce",
+      "tags": [
+        "blockchain",
+        "erc20",
+        "smart-contracts"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Brave Search",
+      "url": "https://github.com/anthropics/mcp-server-brave-search",
+      "description": "Privacy-focused web search using Brave Search API.",
+      "category": "search-web",
+      "tags": [
+        "search",
+        "brave",
+        "privacy"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Puppeteer",
+      "url": "https://github.com/anthropics/mcp-server-puppeteer",
+      "description": "Browser automation for web interaction, screenshots, and JS execution.",
+      "category": "search-web",
+      "tags": [
+        "browser",
+        "automation",
+        "screenshots"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "AgentQL",
+      "url": "https://github.com/tinyfish-io/agentql-mcp",
+      "description": "Get structured data from unstructured web pages for AI agents.",
+      "category": "search-web",
+      "tags": [
+        "scraping",
+        "structured-data",
+        "web"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Apify",
+      "url": "https://github.com/apify/apify-mcp-server",
+      "description": "6,000+ pre-built cloud tools for web data extraction and scraping.",
+      "category": "search-web",
+      "tags": [
+        "scraping",
+        "extraction",
+        "automation"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Algolia",
+      "url": "https://github.com/algolia/mcp-server",
+      "description": "Search and discovery API integration for fast, relevant results.",
+      "category": "search-web",
+      "tags": [
+        "search",
+        "algolia",
+        "discovery"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Pipedream",
+      "url": "https://github.com/PipedreamHQ/pipedream",
+      "description": "Connect 2,500 APIs with 8,000+ prebuilt tools via MCP.",
+      "category": "platforms",
+      "tags": [
+        "integration",
+        "apis",
+        "automation"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Paragon ActionKit",
+      "url": "https://github.com/useparagon/paragon-mcp",
+      "description": "Connect to 130+ SaaS integrations (Slack, Salesforce, Gmail, etc.).",
+      "category": "platforms",
+      "tags": [
+        "saas",
+        "integration",
+        "130+ apps"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Anyquery",
+      "url": "https://github.com/julien040/anyquery",
+      "description": "Query 40+ apps with SQL in a local-first design.",
+      "category": "platforms",
+      "tags": [
+        "sql",
+        "multi-app",
+        "local-first"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "MetaMCP",
+      "url": "https://github.com/metatool-ai/metatool-app",
+      "description": "Unified middleware managing multiple MCP connections centrally.",
+      "category": "platforms",
+      "tags": [
+        "aggregator",
+        "middleware",
+        "multi-mcp"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "1MCP Agent",
+      "url": "https://github.com/1mcp-app/agent",
+      "description": "Unified MCP server that aggregates multiple MCP servers into one.",
+      "category": "platforms",
+      "tags": [
+        "aggregator",
+        "unified",
+        "multi-mcp"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "MCP Gateway",
+      "url": "https://github.com/ViperJuice/mcp-gateway",
+      "description": "Meta-server minimizing tool bloat by proxying multiple MCP servers.",
+      "category": "platforms",
+      "tags": [
+        "gateway",
+        "proxy",
+        "tool-management"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Open MCP (wegotdocs)",
+      "url": "https://github.com/wegotdocs/open-mcp",
+      "description": "Turn any web API into an MCP server and add to registry.",
+      "category": "platforms",
+      "tags": [
+        "api-to-mcp",
+        "generator",
+        "registry"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Box",
+      "url": "https://developer.box.com/guides/box-mcp/",
+      "description": "Box MCP server for AI agents to access Box content seamlessly.",
+      "category": "cloud",
+      "tags": [
+        "box",
+        "cloud-storage",
+        "documents"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Auth0",
+      "url": "https://github.com/auth0/auth0-mcp-server",
+      "description": "Create/modify Auth0 actions, applications, forms, logs, and resource servers.",
+      "category": "developer-tools",
+      "tags": [
+        "auth0",
+        "authentication",
+        "identity"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Amplitude",
+      "url": "https://amplitude.com/docs/analytics/amplitude-mcp",
+      "description": "Search, analyze, and query product analytics data in Amplitude.",
+      "category": "developer-tools",
+      "tags": [
+        "analytics",
+        "product",
+        "amplitude"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Aqara Smart Home",
+      "url": "https://github.com/aqara/aqara-mcp-server",
+      "description": "Control smart home devices and execute automation scenes.",
+      "category": "science",
+      "tags": [
+        "smart-home",
+        "iot",
+        "automation"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Apache IoTDB",
+      "url": "https://github.com/apache/iotdb-mcp-server",
+      "description": "MCP server for Apache IoTDB time-series database for IoT data.",
+      "category": "science",
+      "tags": [
+        "iot",
+        "time-series",
+        "apache"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "OctoEverywhere (3D Printing)",
+      "url": "https://github.com/OctoEverywhere/mcp",
+      "description": "3D printer control and state management via MCP.",
+      "category": "science",
+      "tags": [
+        "3d-printing",
+        "octoprint",
+        "hardware"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "BioMCP",
+      "url": "https://github.com/genomoncology/biomcp",
+      "description": "Access PubMed, ClinicalTrials.gov, and MyVariant.info for biomedical research.",
+      "category": "science",
+      "tags": [
+        "biomedical",
+        "pubmed",
+        "clinical-trials"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "ChatSpatial",
+      "url": "https://github.com/cafferychen777/ChatSpatial",
+      "description": "Spatial transcriptomics analysis with 60+ methods for genomics.",
+      "category": "science",
+      "tags": [
+        "genomics",
+        "spatial",
+        "transcriptomics"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Medical MCP",
+      "url": "https://github.com/JamesANZ/medical-mcp",
+      "description": "Medical information and drug database access for healthcare.",
+      "category": "science",
+      "tags": [
+        "medical",
+        "drugs",
+        "healthcare"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Astronomy Oracle",
+      "url": "https://github.com/gregario/astronomy-oracle",
+      "description": "Astronomical catalog with visibility and observation planning.",
+      "category": "science",
+      "tags": [
+        "astronomy",
+        "stars",
+        "observation"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Baidu Map",
+      "url": "https://github.com/baidu-maps/mcp",
+      "description": "Location-based services and geospatial data analysis.",
+      "category": "search-web",
+      "tags": [
+        "maps",
+        "geospatial",
+        "location"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Spotify MCP",
+      "url": "https://github.com/khglynn/spotify-bulk-actions-mcp",
+      "description": "Bulk Spotify operations, playlist creation, and music discovery.",
+      "category": "creative",
+      "tags": [
+        "spotify",
+        "music",
+        "playlists"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Apple Music MCP",
+      "url": "https://github.com/Cifero74/mcp-apple-music",
+      "description": "Full Apple Music integration with recommendations.",
+      "category": "creative",
+      "tags": [
+        "apple-music",
+        "music",
+        "recommendations"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "AllVoiceLab",
+      "url": "https://www.allvoicelab.com/mcp",
+      "description": "Text-to-speech, voice cloning, and video translation toolkit.",
+      "category": "creative",
+      "tags": [
+        "tts",
+        "voice-cloning",
+        "translation"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Infrastructure Diagram MCP",
+      "url": "https://github.com/andrewmoshu/diagram-mcp-server",
+      "description": "Create infrastructure diagrams for AWS, Azure, GCP, Kubernetes, and more.",
+      "category": "developer-tools",
+      "tags": [
+        "diagrams",
+        "infrastructure",
+        "visualization"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Mermaid MCP (22+ types)",
+      "url": "https://github.com/Narasimhaponnada/mermaid-mcp",
+      "description": "AI-powered Mermaid diagrams with 22+ diagram types.",
+      "category": "developer-tools",
+      "tags": [
+        "mermaid",
+        "diagrams",
+        "flowcharts"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Excalidraw Architect MCP",
+      "url": "https://github.com/BV-Venky/excalidraw-architect-mcp",
+      "description": "Generate Excalidraw architecture diagrams from descriptions.",
+      "category": "developer-tools",
+      "tags": [
+        "excalidraw",
+        "architecture",
+        "diagrams"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Official MCP Registry",
+      "url": "https://registry.modelcontextprotocol.io/",
+      "description": "Anthropic's official open catalog and API for publicly available MCP servers.",
+      "category": "registries",
+      "tags": [
+        "registry",
+        "official",
+        "discovery"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "PulseMCP",
+      "url": "https://www.pulsemcp.com/",
+      "description": "Community directory of MCP servers with search and categorization.",
+      "category": "registries",
+      "tags": [
+        "directory",
+        "search",
+        "community"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "MCP Servers (mcpservers.org)",
+      "url": "https://mcpservers.org/",
+      "description": "Community-curated directory of awesome MCP servers.",
+      "category": "registries",
+      "tags": [
+        "directory",
+        "curated",
+        "awesome-list"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "FastMCP Directory",
+      "url": "https://fastmcp.me/",
+      "description": "MCP server directory with detailed feature pages and alternatives.",
+      "category": "registries",
+      "tags": [
+        "directory",
+        "features",
+        "alternatives"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Docker MCP Catalog",
+      "url": "https://hub.docker.com/catalogs/mcp",
+      "description": "Docker's catalog for discovering and running MCP servers in containers.",
+      "category": "registries",
+      "tags": [
+        "docker",
+        "containers",
+        "catalog"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "FileStash",
+      "url": "https://github.com/mickael-kerjean/filestash",
+      "description": "Remote storage access: SFTP, S3, FTP, SMB, NFS, WebDAV, GIT, cloud.",
+      "category": "cloud",
+      "tags": [
+        "sftp",
+        "s3",
+        "ftp",
+        "webdav"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Audiense Insights",
+      "url": "https://github.com/AudienseCo/mcp-audiense-insights",
+      "description": "Marketing insights and audience analysis for campaigns.",
+      "category": "commerce",
+      "tags": [
+        "marketing",
+        "audience",
+        "insights"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Google Drive",
+      "url": "https://github.com/modelcontextprotocol/servers-archived",
+      "description": "Google Drive integration for file access, search, and management.",
+      "category": "cloud",
+      "tags": [
+        "google-drive",
+        "files",
+        "cloud-storage"
+      ],
+      "source": "official",
+      "status": "archived",
+      "platform": "mcp"
+    },
+    {
+      "name": "Google Maps",
+      "url": "https://github.com/modelcontextprotocol/servers-archived",
+      "description": "Google Maps integration for geocoding, directions, and places.",
+      "category": "search-web",
+      "tags": [
+        "maps",
+        "geocoding",
+        "directions"
+      ],
+      "source": "official",
+      "status": "archived",
+      "platform": "mcp"
+    },
+    {
+      "name": "EverArt",
+      "url": "https://github.com/modelcontextprotocol/servers-archived",
+      "description": "AI art generation integration for creative workflows.",
+      "category": "creative",
+      "tags": [
+        "art",
+        "generation",
+        "ai-art"
+      ],
+      "source": "official",
+      "status": "archived",
+      "platform": "mcp"
+    },
+    {
+      "name": "AWS KB Retrieval",
+      "url": "https://github.com/modelcontextprotocol/servers-archived",
+      "description": "AWS Knowledge Base retrieval for RAG applications.",
+      "category": "cloud",
+      "tags": [
+        "aws",
+        "knowledge-base",
+        "rag"
+      ],
+      "source": "official",
+      "status": "archived",
+      "platform": "mcp"
+    },
+    {
+      "name": "VideoDB",
+      "url": "https://github.com/video-db/agent-toolkit/tree/main/modelcontextprotocol",
+      "description": "Serverless video database for storage, indexing, search, and AI tagging.",
+      "category": "creative",
+      "tags": [
+        "video",
+        "database",
+        "indexing",
+        "tagging"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "ChatGPT Web Browsing (ChatGPT Search)",
+      "description": "Built-in real-time web browsing with cited sources, turning ChatGPT into a search engine that provides synthesized answers.",
+      "category": "official",
+      "url": "https://openai.com/index/searchgpt-is-now-chatgpt/",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "search",
+        "web-browsing",
+        "real-time",
+        "citations"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Advanced Data Analysis (Code Interpreter)",
+      "description": "Sandboxed Python execution environment for data analysis, file processing, calculations, and visualization creation.",
+      "category": "official",
+      "url": "https://openai.com/index/chatgpt-plugins/",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "python",
+        "data-analysis",
+        "code-execution",
+        "visualization"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "DALL-E Image Generation",
+      "description": "Built-in text-to-image generation powered by DALL-E 3, enabling creation and editing of images through natural conversation.",
+      "category": "official",
+      "url": "https://openai.com/index/dall-e-3/",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "image-generation",
+        "dall-e",
+        "creative",
+        "text-to-image"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "GPT-4o Native Image Generation",
+      "description": "Native image generation built into GPT-4o, replacing external DALL-E calls with inline multimodal image creation and editing.",
+      "category": "official",
+      "url": "https://openai.com/index/introducing-4o-image-generation/",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "image-generation",
+        "4o",
+        "multimodal",
+        "native"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Vision (Image Understanding)",
+      "description": "Upload and analyze images including charts, diagrams, handwritten text, and photos with GPT-4o's visual understanding capabilities.",
+      "category": "official",
+      "url": "https://openai.com/index/chatgpt-can-now-see-hear-and-speak/",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "vision",
+        "image-analysis",
+        "multimodal",
+        "ocr"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Voice Mode (Advanced Voice)",
+      "description": "Real-time voice conversations with speech-to-text and text-to-speech capabilities, supporting natural spoken interactions.",
+      "category": "official",
+      "url": "https://openai.com/index/chatgpt-can-now-see-hear-and-speak/",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "voice",
+        "speech",
+        "audio",
+        "conversation"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Canvas",
+      "description": "Side-by-side collaborative writing and coding interface for iterating on content with inline edits and suggestions.",
+      "category": "official",
+      "url": "https://openai.com/index/introducing-canvas/",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "writing",
+        "coding",
+        "collaboration",
+        "editor"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Deep Research",
+      "description": "Autonomous multi-step research agent that browses the web extensively and synthesizes comprehensive reports with citations.",
+      "category": "official",
+      "url": "https://openai.com/index/introducing-deep-research/",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "research",
+        "autonomous",
+        "web-browsing",
+        "reports"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Memory",
+      "description": "Persistent memory across conversations, allowing ChatGPT to remember user preferences, context, and past interactions.",
+      "category": "official",
+      "url": "https://openai.com/index/memory-and-new-controls-for-chatgpt/",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "memory",
+        "personalization",
+        "context",
+        "persistence"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Custom GPTs (GPT Builder)",
+      "description": "Create custom versions of ChatGPT with specific instructions, knowledge files, and actions for specialized tasks.",
+      "category": "official",
+      "url": "https://openai.com/index/introducing-gpts/",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "custom-gpts",
+        "builder",
+        "no-code",
+        "customization"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "GPT Store",
+      "description": "Marketplace with 3M+ custom GPTs created by users and partners, organized by categories like writing, coding, research, and more.",
+      "category": "official",
+      "url": "https://chatgpt.com/gpts",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "marketplace",
+        "store",
+        "custom-gpts",
+        "discovery"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "GPT Actions (API Connections)",
+      "description": "Framework for custom GPTs to call external APIs via OpenAPI specs, enabling integrations with third-party services.",
+      "category": "official",
+      "url": "https://platform.openai.com/docs/actions",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "api",
+        "actions",
+        "integrations",
+        "openapi"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "ChatGPT Codex",
+      "description": "Cloud-based software engineering agent that can handle tasks in parallel, writing code and creating pull requests autonomously.",
+      "category": "official",
+      "url": "https://openai.com/index/introducing-codex/",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "coding",
+        "agent",
+        "autonomous",
+        "software-engineering"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Operator (Computer Use Agent)",
+      "description": "AI agent that can browse the web and perform tasks autonomously using a virtual browser, executing multi-step workflows.",
+      "category": "official",
+      "url": "https://openai.com/index/introducing-operator/",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "agent",
+        "browser",
+        "automation",
+        "computer-use"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Sora (Video Generation)",
+      "description": "AI video generation model integrated into the ChatGPT ecosystem for creating and editing videos from text prompts.",
+      "category": "official",
+      "url": "https://openai.com/index/sora/",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "video",
+        "generation",
+        "creative",
+        "text-to-video"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Gmail App (Connector)",
+      "description": "Read, search, and draft emails in Gmail directly from ChatGPT conversations. Available on Plus/Team/Enterprise plans.",
+      "category": "communication",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "email",
+        "gmail",
+        "google",
+        "communication"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Outlook Email App (Connector)",
+      "description": "Access and manage Outlook emails within ChatGPT, including reading, searching, and composing messages.",
+      "category": "communication",
+      "url": "https://help.openai.com/en/articles/12512241-outlook-email-and-calendar-connectors-for-chatgpt",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "email",
+        "outlook",
+        "microsoft",
+        "communication"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Google Calendar App (Connector)",
+      "description": "View, create, and manage Google Calendar events directly within ChatGPT conversations.",
+      "category": "productivity",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "calendar",
+        "google",
+        "scheduling",
+        "productivity"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Google Drive App (Connector)",
+      "description": "Search and reference documents, spreadsheets, and files from Google Drive within ChatGPT.",
+      "category": "productivity",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "files",
+        "google-drive",
+        "documents",
+        "storage"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Microsoft SharePoint App (Connector)",
+      "description": "Access and search SharePoint documents and company knowledge within ChatGPT for enterprise users.",
+      "category": "productivity",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "sharepoint",
+        "microsoft",
+        "enterprise",
+        "documents"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Microsoft Teams App (Connector)",
+      "description": "Search and reference Microsoft Teams conversations and channels from within ChatGPT.",
+      "category": "communication",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "teams",
+        "microsoft",
+        "chat",
+        "collaboration"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Slack App (Connector)",
+      "description": "Access Slack messages, channels, and workspace content directly within ChatGPT conversations.",
+      "category": "communication",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "slack",
+        "messaging",
+        "workspace",
+        "communication"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "GitHub App (Connector)",
+      "description": "Search and reference GitHub repositories, issues, and pull requests within ChatGPT.",
+      "category": "developer-tools",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "github",
+        "code",
+        "repositories",
+        "version-control"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Linear App (Connector)",
+      "description": "Access Linear project management issues, projects, and workflows from within ChatGPT.",
+      "category": "developer-tools",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "linear",
+        "project-management",
+        "issues",
+        "agile"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "HubSpot App (Connector)",
+      "description": "Access CRM data, contacts, and marketing information from HubSpot within ChatGPT.",
+      "category": "commerce",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "crm",
+        "hubspot",
+        "marketing",
+        "sales"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Dropbox App (Connector)",
+      "description": "Search and access files stored in Dropbox directly from ChatGPT conversations.",
+      "category": "productivity",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "dropbox",
+        "files",
+        "storage",
+        "cloud"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Box App (Connector)",
+      "description": "Access and search Box cloud storage content within ChatGPT for enterprise document management.",
+      "category": "productivity",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "box",
+        "files",
+        "enterprise",
+        "storage"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Notion App (Connector)",
+      "description": "Connect Notion workspaces to ChatGPT for accessing notes, databases, and project documentation.",
+      "category": "productivity",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "notion",
+        "notes",
+        "wiki",
+        "project-management"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Asana App (Connector)",
+      "description": "Access Asana tasks, projects, and workflows within ChatGPT for project management assistance.",
+      "category": "productivity",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "asana",
+        "project-management",
+        "tasks",
+        "workflows"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Canva GPT",
+      "description": "Generate visual designs, presentations, social media posts, and graphics through conversational prompts within ChatGPT.",
+      "category": "creative",
+      "url": "https://chatgpt.com/g/g-alKfVrz9K-canva",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "design",
+        "canva",
+        "graphics",
+        "presentations"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Consensus GPT",
+      "description": "AI research assistant connected to 200M+ academic papers, providing answers backed by peer-reviewed science with a Consensus Meter.",
+      "category": "science",
+      "url": "https://chatgpt.com/g/g-bo0FiWLY7-consensus",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "research",
+        "academic",
+        "papers",
+        "citations"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "ScholarGPT",
+      "description": "Top-ranking research GPT that searches academic papers from leading journals, providing sourced answers for scholarly work.",
+      "category": "science",
+      "url": "https://chatgpt.com/g/g-kZ0eYXlJe-scholar-gpt",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "research",
+        "academic",
+        "scholar",
+        "papers"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Wolfram GPT",
+      "description": "Access Wolfram Alpha's computational engine and Wolfram Language for advanced math, data analysis, and real-time curated knowledge.",
+      "category": "science",
+      "url": "https://gpt.wolfram.com/",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "math",
+        "computation",
+        "wolfram",
+        "data"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Data Analyst GPT",
+      "description": "Official OpenAI GPT for data analysis: upload files, create visualizations, run statistical analysis, and generate insights.",
+      "category": "official",
+      "url": "https://chatgpt.com/g/g-HMNcP6w7d-data-analyst",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "data-analysis",
+        "visualization",
+        "statistics",
+        "charts"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Write For Me GPT",
+      "description": "Versatile writing assistant for creating blog posts, articles, essays, tutorials, and other content with customizable tone.",
+      "category": "writing",
+      "url": "https://chatgpt.com/g/g-B3hgivKK9-write-for-me",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "writing",
+        "content",
+        "articles",
+        "copywriting"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Creative Writing Coach",
+      "description": "Specialized GPT offering nuanced feedback on creative writing with deep understanding of narrative structures and style.",
+      "category": "writing",
+      "url": "https://chatgpt.com/g/g-lN1gKFnvL-creative-writing-coach",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "creative-writing",
+        "fiction",
+        "storytelling",
+        "feedback"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Grimoire",
+      "description": "Legendary full-stack coding GPT for rapid prototyping with auto-deployment capabilities and comprehensive development support.",
+      "category": "developer-tools",
+      "url": "https://chatgpt.com/g/g-n7Rs0IK86-grimoire",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "coding",
+        "full-stack",
+        "prototyping",
+        "web-development"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Code Copilot",
+      "description": "Real-time code suggestions, debugging, and documentation generation supporting Python, JavaScript, TypeScript, and more.",
+      "category": "developer-tools",
+      "url": "https://chatgpt.com/g/g-2DQzU5UZl-code-copilot",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "coding",
+        "debugging",
+        "documentation",
+        "multi-language"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "DesignerGPT",
+      "description": "Builds complete websites from text prompts, generating HTML/CSS with hosted output and visual design capabilities.",
+      "category": "developer-tools",
+      "url": "https://chatgpt.com/g/g-2Eo3NxuS7-designergpt",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "web-design",
+        "html",
+        "css",
+        "website-builder"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Screenshot to Code GPT",
+      "description": "Converts UI screenshots into functional HTML/Tailwind CSS code, bridging design-to-code workflows.",
+      "category": "developer-tools",
+      "url": "https://chatgpt.com/g/g-hz8Pw1quF-screenshot-to-code",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "screenshot",
+        "html",
+        "tailwind",
+        "ui-conversion"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Python GPT",
+      "description": "Python-specific development assistant for debugging, testing, optimization, type hints, and best practices.",
+      "category": "developer-tools",
+      "url": "https://chatgpt.com/g/g-cKXjWStaE-python",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "python",
+        "debugging",
+        "testing",
+        "development"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "AskYourDatabase",
+      "description": "Chat with databases without writing SQL. Supports MySQL, PostgreSQL, MongoDB, SQL Server with real-time querying and analysis.",
+      "category": "databases",
+      "url": "https://chatgpt.com/g/g-0s2l1tx25-askyourdatabase",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "sql",
+        "database",
+        "mysql",
+        "postgresql",
+        "mongodb"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "SQL Expert",
+      "description": "Specialized GPT for SQL query writing, optimization, database design, and troubleshooting across database platforms.",
+      "category": "databases",
+      "url": "https://chatgpt.com/g/g-m5lMeGifF-sql-expert",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "sql",
+        "queries",
+        "optimization",
+        "database-design"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "DevNexus Architect",
+      "description": "Full-stack development assistant with deep understanding of modern DevOps pipelines and infrastructure.",
+      "category": "developer-tools",
+      "url": "https://chatgpt.com/g/g-DevNexus-architect",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "devops",
+        "full-stack",
+        "architecture",
+        "infrastructure"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Glibatree Art Designer",
+      "description": "AI-powered creative assistant for generating professional-quality artwork, enhancing prompts and producing refined image variations.",
+      "category": "creative",
+      "url": "https://chatgpt.com/g/g-cJtHaGnyo-glibatree-art-designer",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "art",
+        "image-generation",
+        "design",
+        "creative"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Logo Creator",
+      "description": "Specialized GPT for designing professional logos with various styles, color schemes, and branding elements.",
+      "category": "creative",
+      "url": "https://chatgpt.com/g/g-gFt1ghYJl-logo-creator",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "logo",
+        "branding",
+        "design",
+        "graphic-design"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Presentation and Slides GPT",
+      "description": "Creates professional presentations and slide decks from text prompts with structured layouts and visual design.",
+      "category": "productivity",
+      "url": "https://chatgpt.com/g/g-cJtHaGnyo-presentation-and-slides-gpt",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "presentations",
+        "slides",
+        "powerpoint",
+        "business"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Video GPT",
+      "description": "AI video creation assistant for generating and editing video content from text descriptions and prompts.",
+      "category": "creative",
+      "url": "https://chatgpt.com/g/g-video-gpt",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "video",
+        "creation",
+        "editing",
+        "multimedia"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Zapier AI Actions GPT",
+      "description": "Connect ChatGPT to 6,000+ apps via Zapier, enabling automated workflows across Slack, Google Calendar, Notion, and more.",
+      "category": "platforms",
+      "url": "https://zapier.com/blog/gpt-assistant/",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "zapier",
+        "automation",
+        "workflows",
+        "integrations"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Shopify Sidekick GPT",
+      "description": "AI copilot for Shopify merchants handling store setup, campaign management, analytics, and e-commerce automation.",
+      "category": "commerce",
+      "url": "https://chatgpt.com/g/g-shopify-sidekick",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "shopify",
+        "ecommerce",
+        "store-management",
+        "analytics"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "SEO GPT (Writesonic)",
+      "description": "Streamlines SEO optimization with keyword research, content analysis, and search engine ranking strategies.",
+      "category": "writing",
+      "url": "https://chatgpt.com/g/g-writesonic-seo",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "seo",
+        "keywords",
+        "content-optimization",
+        "marketing"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "AI Grammar Checker",
+      "description": "Advanced grammar, spelling, and style checking GPT for polishing written content across multiple languages.",
+      "category": "writing",
+      "url": "https://chatgpt.com/g/g-grammar-checker",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "grammar",
+        "proofreading",
+        "editing",
+        "writing"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Excel Formula Generator",
+      "description": "Generate complex Excel and Google Sheets formulas from natural language descriptions of desired calculations.",
+      "category": "productivity",
+      "url": "https://chatgpt.com/g/g-excel-formula",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "excel",
+        "spreadsheets",
+        "formulas",
+        "google-sheets"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "ChatGPT Copilot (VS Code Extension)",
+      "description": "VS Code extension bringing ChatGPT capabilities into the editor, supporting multiple models and providers.",
+      "category": "developer-tools",
+      "url": "https://github.com/feiskyer/chatgpt-copilot",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "vscode",
+        "ide",
+        "coding",
+        "extension"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Chat GPT for Games (Unity Asset)",
+      "description": "Unity Asset Store package for integrating ChatGPT into games for dynamic dialogue, NPC conversations, and storytelling.",
+      "category": "game-engines",
+      "url": "https://assetstore.unity.com/packages/tools/ai-ml-integration/chat-gpt-for-games-ai-integration-248841",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "unity",
+        "game-dev",
+        "npc-dialogue",
+        "integration"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "GPT AI Integration for Unity",
+      "description": "Unity plugin for creating, debugging, and refactoring scripts using ChatGPT directly within the Unity editor.",
+      "category": "game-engines",
+      "url": "https://discussions.unity.com/t/just-released-gpt-ai-integration-chatgpt-for-unity-create-debug-and-refactor-scripts-more/909839",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "unity",
+        "scripting",
+        "debugging",
+        "editor-tool"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "HttpGPT (Unreal Engine Plugin)",
+      "description": "Unreal Engine plugin integrating ChatGPT and DALL-E via REST API, with editor tools for AI-assisted game development.",
+      "category": "game-engines",
+      "url": "https://github.com/lucoiso/UEHttpGPT",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "unreal-engine",
+        "game-dev",
+        "api",
+        "editor-tool"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "ScholarAI",
+      "description": "AI research assistant for students, developers, and clinical teams, providing access to scientific literature and analysis.",
+      "category": "science",
+      "url": "https://scholarai.io/",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "research",
+        "science",
+        "academic",
+        "literature-review"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "SciSpace GPT",
+      "description": "Research tool for understanding and analyzing academic papers, with features for literature review and citation management.",
+      "category": "science",
+      "url": "https://chatgpt.com/g/g-scispace",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "research",
+        "papers",
+        "literature-review",
+        "analysis"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "OpenAI Fine-Tuning API",
+      "description": "Fine-tune GPT models on custom datasets through the OpenAI API, enabling domain-specific model optimization.",
+      "category": "ai-ml",
+      "url": "https://platform.openai.com/docs/guides/fine-tuning",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "fine-tuning",
+        "training",
+        "custom-models",
+        "api"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "OpenAI Assistants API",
+      "description": "Build AI assistants with tools (code interpreter, retrieval, function calling) that can maintain conversation state.",
+      "category": "ai-ml",
+      "url": "https://platform.openai.com/docs/assistants/overview",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "assistants",
+        "api",
+        "tools",
+        "agents"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "OpenAI Responses API",
+      "description": "Latest API for building agentic applications with built-in tools for web search, file search, and computer use.",
+      "category": "ai-ml",
+      "url": "https://platform.openai.com/docs/guides/responses",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "api",
+        "agents",
+        "tools",
+        "responses"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Stripe MCP Connector",
+      "description": "Partner-built MCP connector enabling ChatGPT to access Stripe payment data and manage transactions.",
+      "category": "commerce",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "stripe",
+        "payments",
+        "fintech",
+        "transactions"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Amplitude Connector",
+      "description": "Partner MCP connector for accessing Amplitude product analytics data within ChatGPT.",
+      "category": "platforms",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "analytics",
+        "product",
+        "amplitude",
+        "data"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Vercel Connector",
+      "description": "Partner MCP connector for accessing Vercel deployment and project data within ChatGPT.",
+      "category": "developer-tools",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "vercel",
+        "deployment",
+        "hosting",
+        "frontend"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Monday.com Connector",
+      "description": "Partner MCP connector for accessing Monday.com project boards, tasks, and workflows within ChatGPT.",
+      "category": "productivity",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "monday",
+        "project-management",
+        "tasks",
+        "workflows"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Hex Connector",
+      "description": "Partner MCP connector for accessing Hex data notebooks and analytics within ChatGPT.",
+      "category": "databases",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "hex",
+        "data",
+        "notebooks",
+        "analytics"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Semrush Connector",
+      "description": "Partner MCP connector for accessing Semrush SEO and marketing analytics data within ChatGPT.",
+      "category": "search-web",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "semrush",
+        "seo",
+        "marketing",
+        "analytics"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Canva App (Connector)",
+      "description": "Official Canva connector for ChatGPT Business, enabling design asset access and creation from within ChatGPT.",
+      "category": "creative",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "canva",
+        "design",
+        "graphics",
+        "connector"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Intercom Connector",
+      "description": "Access Intercom customer support conversations and data within ChatGPT for support workflow assistance.",
+      "category": "communication",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "intercom",
+        "support",
+        "customer-service",
+        "chat"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "ClickUp Connector",
+      "description": "Access ClickUp tasks, projects, and workspace data within ChatGPT for productivity and project management.",
+      "category": "productivity",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "clickup",
+        "project-management",
+        "tasks",
+        "productivity"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Fireflies Connector",
+      "description": "Partner MCP connector for accessing Fireflies.ai meeting transcripts and notes within ChatGPT.",
+      "category": "productivity",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "fireflies",
+        "meetings",
+        "transcription",
+        "notes"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "BioRender Connector",
+      "description": "Partner MCP connector for accessing BioRender scientific illustration tools within ChatGPT.",
+      "category": "science",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "biorender",
+        "science",
+        "illustration",
+        "biology"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Jam.dev Connector",
+      "description": "Partner MCP connector for accessing Jam.dev bug reporting and QA data within ChatGPT.",
+      "category": "developer-tools",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "jam",
+        "bug-reporting",
+        "qa",
+        "testing"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Alpaca Connector",
+      "description": "Partner MCP connector for accessing Alpaca trading and financial market data within ChatGPT.",
+      "category": "commerce",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "alpaca",
+        "trading",
+        "finance",
+        "markets"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Egnyte Connector",
+      "description": "Partner MCP connector for accessing Egnyte enterprise file management within ChatGPT.",
+      "category": "productivity",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "egnyte",
+        "files",
+        "enterprise",
+        "storage"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Wolfram Plugin (Legacy)",
+      "description": "Original ChatGPT plugin providing Wolfram Alpha computation and knowledge. Deprecated April 2024, succeeded by Wolfram GPT.",
+      "category": "science",
+      "url": "https://writings.stephenwolfram.com/2023/03/chatgpt-gets-its-wolfram-superpowers/",
+      "source": "partner",
+      "status": "deprecated",
+      "tags": [
+        "wolfram",
+        "math",
+        "legacy-plugin",
+        "computation"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Expedia Plugin (Legacy)",
+      "description": "Original ChatGPT plugin for searching flights, hotels, and travel plans. Deprecated April 2024.",
+      "category": "commerce",
+      "url": "https://openai.com/index/chatgpt-plugins/",
+      "source": "partner",
+      "status": "deprecated",
+      "tags": [
+        "travel",
+        "flights",
+        "hotels",
+        "legacy-plugin"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "KAYAK Plugin (Legacy)",
+      "description": "Original ChatGPT plugin for finding flights, stays, and rental cars. Deprecated April 2024.",
+      "category": "commerce",
+      "url": "https://openai.com/index/chatgpt-plugins/",
+      "source": "partner",
+      "status": "deprecated",
+      "tags": [
+        "travel",
+        "flights",
+        "hotels",
+        "legacy-plugin"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Instacart Plugin (Legacy)",
+      "description": "Original ChatGPT plugin for ordering groceries from local stores with delivery. Deprecated April 2024.",
+      "category": "commerce",
+      "url": "https://openai.com/index/chatgpt-plugins/",
+      "source": "partner",
+      "status": "deprecated",
+      "tags": [
+        "grocery",
+        "delivery",
+        "shopping",
+        "legacy-plugin"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Klarna Plugin (Legacy)",
+      "description": "Original ChatGPT plugin for product search and price comparison across online retailers. Deprecated April 2024.",
+      "category": "commerce",
+      "url": "https://openai.com/index/chatgpt-plugins/",
+      "source": "partner",
+      "status": "deprecated",
+      "tags": [
+        "shopping",
+        "price-comparison",
+        "ecommerce",
+        "legacy-plugin"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "OpenTable Plugin (Legacy)",
+      "description": "Original ChatGPT plugin for searching and booking restaurant reservations. Deprecated April 2024.",
+      "category": "commerce",
+      "url": "https://openai.com/index/chatgpt-plugins/",
+      "source": "partner",
+      "status": "deprecated",
+      "tags": [
+        "restaurants",
+        "reservations",
+        "dining",
+        "legacy-plugin"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Speak Plugin (Legacy)",
+      "description": "AI-powered language tutor plugin for learning new languages and pronunciation. Deprecated April 2024.",
+      "category": "education",
+      "url": "https://openai.com/index/chatgpt-plugins/",
+      "source": "partner",
+      "status": "deprecated",
+      "tags": [
+        "language-learning",
+        "tutor",
+        "translation",
+        "legacy-plugin"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Zapier Plugin (Legacy)",
+      "description": "Original ChatGPT plugin connecting to 5,000+ apps for workflow automation. Deprecated April 2024, succeeded by Zapier AI Actions.",
+      "category": "platforms",
+      "url": "https://help.zapier.com/hc/en-us/articles/24785309335565",
+      "source": "partner",
+      "status": "deprecated",
+      "tags": [
+        "zapier",
+        "automation",
+        "workflows",
+        "legacy-plugin"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Slack Plugin (Legacy)",
+      "description": "Original ChatGPT plugin for Slack workspace integration. Deprecated April 2024, succeeded by Slack connector.",
+      "category": "communication",
+      "url": "https://openai.com/index/chatgpt-plugins/",
+      "source": "partner",
+      "status": "deprecated",
+      "tags": [
+        "slack",
+        "messaging",
+        "workspace",
+        "legacy-plugin"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "FiscalNote Plugin (Legacy)",
+      "description": "Original ChatGPT plugin for accessing legal, political, and regulatory data. Deprecated April 2024.",
+      "category": "science",
+      "url": "https://openai.com/index/chatgpt-plugins/",
+      "source": "partner",
+      "status": "deprecated",
+      "tags": [
+        "legal",
+        "regulatory",
+        "policy",
+        "legacy-plugin"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Shopify Plugin (Legacy)",
+      "description": "Original ChatGPT plugin for Shopify store product search and recommendations. Deprecated April 2024.",
+      "category": "commerce",
+      "url": "https://openai.com/index/chatgpt-plugins/",
+      "source": "partner",
+      "status": "deprecated",
+      "tags": [
+        "shopify",
+        "ecommerce",
+        "products",
+        "legacy-plugin"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "WebPilot Plugin (Legacy)",
+      "description": "Plugin providing internet access for real-time web browsing and information retrieval. Deprecated April 2024.",
+      "category": "search-web",
+      "url": "https://www.godofprompt.ai/blog/best-chatgpt-plugins-ultimate-list-for-2023",
+      "source": "community",
+      "status": "deprecated",
+      "tags": [
+        "web-browsing",
+        "search",
+        "real-time",
+        "legacy-plugin"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Milo Plugin (Legacy)",
+      "description": "AI co-parent assistant plugin for family scheduling and parenting support. Deprecated April 2024.",
+      "category": "productivity",
+      "url": "https://openai.com/index/chatgpt-plugins/",
+      "source": "partner",
+      "status": "deprecated",
+      "tags": [
+        "parenting",
+        "family",
+        "scheduling",
+        "legacy-plugin"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Search Query Analyzer GPT",
+      "description": "Analyzes Google search results for content optimization and understanding user search intent for SEO.",
+      "category": "search-web",
+      "url": "https://chatgpt.com/g/g-search-query-analyzer",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "seo",
+        "search-analysis",
+        "google",
+        "content-optimization"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Is it a Ranking Factor GPT",
+      "description": "Expert insights into Google's search algorithm factors including page speed, backlinks, and content quality impact.",
+      "category": "search-web",
+      "url": "https://chatgpt.com/g/g-ranking-factor",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "seo",
+        "google",
+        "ranking",
+        "algorithm"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Azure Boards Connector",
+      "description": "Access Azure DevOps boards, work items, and sprint data within ChatGPT for development workflow management.",
+      "category": "cloud",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "azure",
+        "devops",
+        "boards",
+        "agile"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Teamwork Connector",
+      "description": "Access Teamwork project management data, tasks, and milestones within ChatGPT.",
+      "category": "productivity",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "teamwork",
+        "project-management",
+        "tasks",
+        "milestones"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Basecamp Connector",
+      "description": "Access Basecamp project data, to-dos, and discussions within ChatGPT conversations.",
+      "category": "productivity",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "basecamp",
+        "project-management",
+        "collaboration",
+        "tasks"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Help Scout Connector",
+      "description": "Access Help Scout customer support tickets and conversations within ChatGPT.",
+      "category": "communication",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "helpscout",
+        "support",
+        "tickets",
+        "customer-service"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "OneDrive Connector",
+      "description": "Access and search Microsoft OneDrive files and documents within ChatGPT.",
+      "category": "productivity",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "onedrive",
+        "microsoft",
+        "files",
+        "storage"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Google Contacts App (Connector)",
+      "description": "Access and search Google Contacts data within ChatGPT conversations.",
+      "category": "communication",
+      "url": "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "contacts",
+        "google",
+        "address-book",
+        "communication"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Outlook Calendar App (Connector)",
+      "description": "View and manage Outlook calendar events and scheduling within ChatGPT.",
+      "category": "productivity",
+      "url": "https://help.openai.com/en/articles/12512241-outlook-email-and-calendar-connectors-for-chatgpt",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "calendar",
+        "outlook",
+        "microsoft",
+        "scheduling"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "OpenAI Whisper (Speech-to-Text API)",
+      "description": "Automatic speech recognition model available via API for transcription and translation of audio content.",
+      "category": "ai-ml",
+      "url": "https://platform.openai.com/docs/guides/speech-to-text",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "speech-to-text",
+        "transcription",
+        "audio",
+        "whisper"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "OpenAI TTS (Text-to-Speech API)",
+      "description": "Text-to-speech API generating natural-sounding audio in multiple voices for content creation and accessibility.",
+      "category": "ai-ml",
+      "url": "https://platform.openai.com/docs/guides/text-to-speech",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "text-to-speech",
+        "audio",
+        "voice",
+        "tts"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "OpenAI Embeddings API",
+      "description": "Generate text embeddings for semantic search, clustering, and retrieval-augmented generation (RAG) applications.",
+      "category": "ai-ml",
+      "url": "https://platform.openai.com/docs/guides/embeddings",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "embeddings",
+        "search",
+        "rag",
+        "semantic"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "OpenAI Moderation API",
+      "description": "Content moderation endpoint for detecting harmful content across categories like violence, hate speech, and self-harm.",
+      "category": "ai-ml",
+      "url": "https://platform.openai.com/docs/guides/moderation",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "moderation",
+        "safety",
+        "content-filter",
+        "compliance"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "ChatGPT Enterprise",
+      "description": "Enterprise-grade ChatGPT deployment with admin console, SSO, domain verification, and advanced security features.",
+      "category": "platforms",
+      "url": "https://openai.com/chatgpt/enterprise/",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "enterprise",
+        "security",
+        "admin",
+        "deployment"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "ChatGPT Team",
+      "description": "Team collaboration workspace with shared custom GPTs, higher usage limits, and team-level admin controls.",
+      "category": "platforms",
+      "url": "https://openai.com/chatgpt/team/",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "team",
+        "collaboration",
+        "shared-gpts",
+        "workspace"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "ChatGPT Edu",
+      "description": "Education-focused ChatGPT tier with group permissions, analytics, and academic integrity features for universities.",
+      "category": "education",
+      "url": "https://openai.com/chatgpt/edu/",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "education",
+        "university",
+        "academic",
+        "institutional"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Math Solver GPT",
+      "description": "Step-by-step math problem solver covering algebra, calculus, statistics, and advanced mathematics topics.",
+      "category": "education",
+      "url": "https://chatgpt.com/g/g-math-solver",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "math",
+        "solver",
+        "education",
+        "step-by-step"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Language Teacher GPT",
+      "description": "Multilingual language learning assistant with conversation practice, grammar explanations, and vocabulary building.",
+      "category": "education",
+      "url": "https://chatgpt.com/g/g-language-teacher",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "language-learning",
+        "tutor",
+        "multilingual",
+        "education"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Resume Builder GPT",
+      "description": "Professional resume and CV creation assistant with formatting, keyword optimization, and ATS-friendly output.",
+      "category": "productivity",
+      "url": "https://chatgpt.com/g/g-resume-builder",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "resume",
+        "cv",
+        "career",
+        "job-search"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "API Docs GPT",
+      "description": "Specialized GPT for generating, explaining, and reviewing API documentation with OpenAPI/Swagger support.",
+      "category": "developer-tools",
+      "url": "https://chatgpt.com/g/g-api-docs",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "api",
+        "documentation",
+        "openapi",
+        "swagger"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Prompt Perfect GPT",
+      "description": "Optimizes and enhances prompts for better AI outputs across ChatGPT, DALL-E, and other models.",
+      "category": "ai-ml",
+      "url": "https://chatgpt.com/g/g-prompt-perfect",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "prompts",
+        "optimization",
+        "prompt-engineering",
+        "ai"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "PDF Analyzer GPT",
+      "description": "Upload and analyze PDF documents with extraction, summarization, and question-answering capabilities.",
+      "category": "productivity",
+      "url": "https://chatgpt.com/g/g-pdf-analyzer",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "pdf",
+        "documents",
+        "analysis",
+        "extraction"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Diagrams: Show Me GPT",
+      "description": "Creates diagrams, flowcharts, mind maps, and visual representations from text descriptions using various diagram types.",
+      "category": "creative",
+      "url": "https://chatgpt.com/g/g-5ZfUz9EDi-diagrams-show-me",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "diagrams",
+        "flowcharts",
+        "visualization",
+        "mind-maps"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Whimsical Diagrams GPT",
+      "description": "Generate flowcharts, mind maps, and sequence diagrams with Whimsical's clean visual style directly in ChatGPT.",
+      "category": "creative",
+      "url": "https://chatgpt.com/g/g-whimsical-diagrams",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "whimsical",
+        "diagrams",
+        "flowcharts",
+        "visual"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Finance GPT",
+      "description": "Financial analysis assistant for stock analysis, portfolio management, market trends, and investment research.",
+      "category": "commerce",
+      "url": "https://chatgpt.com/g/g-finance-gpt",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "finance",
+        "stocks",
+        "investment",
+        "market-analysis"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Tax Helper GPT",
+      "description": "Tax preparation and planning assistant providing general guidance on deductions, filing, and tax strategies.",
+      "category": "commerce",
+      "url": "https://chatgpt.com/g/g-tax-helper",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "tax",
+        "accounting",
+        "finance",
+        "planning"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "ChatGPT Desktop App (macOS)",
+      "description": "Native macOS application with system-wide access, screenshot analysis, and direct integration with desktop workflows.",
+      "category": "platforms",
+      "url": "https://openai.com/chatgpt/mac/",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "desktop",
+        "macos",
+        "native-app",
+        "system-wide"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "ChatGPT Desktop App (Windows)",
+      "description": "Native Windows application with Alt+Space shortcut, file analysis, and desktop integration features.",
+      "category": "platforms",
+      "url": "https://openai.com/chatgpt/download/",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "desktop",
+        "windows",
+        "native-app",
+        "system-wide"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "ChatGPT iOS App",
+      "description": "Native iPhone and iPad app with voice mode, image upload, and Siri integration for mobile AI access.",
+      "category": "platforms",
+      "url": "https://apps.apple.com/app/chatgpt/id6448311069",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "ios",
+        "mobile",
+        "iphone",
+        "siri"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "ChatGPT Android App",
+      "description": "Native Android application with voice mode, camera integration, and mobile-optimized ChatGPT experience.",
+      "category": "platforms",
+      "url": "https://play.google.com/store/apps/details?id=com.openai.chatgpt",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "android",
+        "mobile",
+        "voice",
+        "camera"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "GetYourGuide Plugin (Legacy)",
+      "description": "Plugin for discovering and booking tours, activities, and experiences worldwide. Deprecated April 2024.",
+      "category": "commerce",
+      "url": "https://openai.com/index/chatgpt-plugins/",
+      "source": "partner",
+      "status": "deprecated",
+      "tags": [
+        "travel",
+        "tours",
+        "experiences",
+        "legacy-plugin"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Podcast Copilot GPT",
+      "description": "AI assistant for podcast creation including show notes, episode planning, script writing, and SEO optimization.",
+      "category": "creative",
+      "url": "https://chatgpt.com/g/g-podcast-copilot",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "podcast",
+        "audio",
+        "content-creation",
+        "show-notes"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "UX Design Mentor GPT",
+      "description": "UX/UI design assistant providing feedback on wireframes, user flows, and design best practices.",
+      "category": "creative",
+      "url": "https://chatgpt.com/g/g-ux-design-mentor",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "ux",
+        "ui",
+        "design",
+        "wireframes"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Legal GPT",
+      "description": "Legal research assistant for contract review, legal terminology, case analysis, and regulatory compliance guidance.",
+      "category": "science",
+      "url": "https://chatgpt.com/g/g-legal-gpt",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "legal",
+        "contracts",
+        "compliance",
+        "law"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Medical Advisor GPT",
+      "description": "Health information assistant providing general medical knowledge, symptom explanations, and wellness guidance (not medical advice).",
+      "category": "science",
+      "url": "https://chatgpt.com/g/g-medical-advisor",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "medical",
+        "health",
+        "wellness",
+        "symptoms"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Game Design GPT",
+      "description": "Game design assistant for mechanics design, level design, narrative systems, balancing, and game development workflows.",
+      "category": "game-engines",
+      "url": "https://chatgpt.com/g/g-game-design",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "game-design",
+        "mechanics",
+        "level-design",
+        "narrative"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "UnityChatGPT Examples",
+      "description": "Open-source Unity project demonstrating ChatGPT integration patterns for game developers.",
+      "category": "game-engines",
+      "url": "https://github.com/dilmerv/UnityChatGPT",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "unity",
+        "examples",
+        "open-source",
+        "integration"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Make.com (Integromat) ChatGPT Integration",
+      "description": "Visual automation platform connecting ChatGPT to hundreds of apps for building automated workflows without code.",
+      "category": "platforms",
+      "url": "https://www.make.com/en/integrations/openai-gpt-3",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "make",
+        "automation",
+        "no-code",
+        "workflows"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Midjourney Prompt Generator GPT",
+      "description": "Specialized GPT for crafting optimized Midjourney prompts with style parameters, aspect ratios, and artistic direction.",
+      "category": "creative",
+      "url": "https://chatgpt.com/g/g-midjourney-prompt",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "midjourney",
+        "prompts",
+        "image-generation",
+        "art"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Stable Diffusion Prompt Maker GPT",
+      "description": "Creates optimized prompts for Stable Diffusion models with negative prompts, sampling parameters, and model-specific tuning.",
+      "category": "creative",
+      "url": "https://chatgpt.com/g/g-sd-prompt-maker",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "stable-diffusion",
+        "prompts",
+        "image-generation",
+        "ai-art"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Docker GPT",
+      "description": "Docker and containerization assistant for Dockerfile creation, compose files, debugging, and container orchestration.",
+      "category": "developer-tools",
+      "url": "https://chatgpt.com/g/g-docker-gpt",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "docker",
+        "containers",
+        "devops",
+        "deployment"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Kubernetes Expert GPT",
+      "description": "Kubernetes specialist for cluster management, YAML configuration, troubleshooting, and cloud-native architecture.",
+      "category": "cloud",
+      "url": "https://chatgpt.com/g/g-kubernetes-expert",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "kubernetes",
+        "k8s",
+        "cloud-native",
+        "orchestration"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "AWS Expert GPT",
+      "description": "Amazon Web Services specialist for architecture design, service selection, cost optimization, and AWS best practices.",
+      "category": "cloud",
+      "url": "https://chatgpt.com/g/g-aws-expert",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "aws",
+        "cloud",
+        "architecture",
+        "infrastructure"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Azure Expert GPT",
+      "description": "Microsoft Azure specialist for cloud architecture, service configuration, and Azure-specific development patterns.",
+      "category": "cloud",
+      "url": "https://chatgpt.com/g/g-azure-expert",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "azure",
+        "microsoft",
+        "cloud",
+        "architecture"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Terraform GPT",
+      "description": "Infrastructure-as-code assistant for writing Terraform configurations, modules, and multi-cloud deployments.",
+      "category": "cloud",
+      "url": "https://chatgpt.com/g/g-terraform",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "terraform",
+        "iac",
+        "infrastructure",
+        "multi-cloud"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Git Expert GPT",
+      "description": "Git version control specialist for complex branching strategies, conflict resolution, and workflow optimization.",
+      "category": "developer-tools",
+      "url": "https://chatgpt.com/g/g-git-expert",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "git",
+        "version-control",
+        "branching",
+        "collaboration"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "React Expert GPT",
+      "description": "React.js development specialist for component architecture, hooks, state management, and performance optimization.",
+      "category": "developer-tools",
+      "url": "https://chatgpt.com/g/g-react-expert",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "react",
+        "javascript",
+        "frontend",
+        "components"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "ChatGPT Meeting Recorder",
+      "description": "Built-in meeting recording feature that captures, transcribes, and summarizes meetings directly in ChatGPT.",
+      "category": "official",
+      "url": "https://techcrunch.com/2025/06/04/chatgpt-introduces-meeting-recording-and-connectors-for-google-drive-box-and-more/",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "meetings",
+        "recording",
+        "transcription",
+        "summary"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Company Knowledge (ChatGPT Business)",
+      "description": "Upload and manage organizational knowledge bases that ChatGPT references across team conversations for consistent answers.",
+      "category": "platforms",
+      "url": "https://openai.com/index/introducing-company-knowledge/",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "knowledge-base",
+        "enterprise",
+        "rag",
+        "organizational"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Projects (ChatGPT)",
+      "description": "Organize conversations, files, and custom instructions into projects for focused workstreams and context management.",
+      "category": "official",
+      "url": "https://openai.com/index/more-ways-to-work-with-your-team/",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "projects",
+        "organization",
+        "context",
+        "workspace"
+      ],
+      "platform": "chatgpt"
+    }
+  ]
+}
