@@ -101,6 +101,24 @@
       "label": "Education",
       "color": "#2ec4b6",
       "icon": "E"
+    },
+    {
+      "id": "security",
+      "label": "Security",
+      "color": "#ef4444",
+      "icon": "!"
+    },
+    {
+      "id": "marketing",
+      "label": "Marketing",
+      "color": "#f97316",
+      "icon": "M"
+    },
+    {
+      "id": "finance",
+      "label": "Finance & Trading",
+      "color": "#10b981",
+      "icon": "$"
     }
   ],
   "entries": [
@@ -1802,10 +1820,11 @@
       "description": "Official Notion MCP server for pages, databases, and workspace management.",
       "category": "productivity",
       "tags": [
-        "notion",
-        "notes",
+        "workspace",
+        "wiki",
         "databases",
-        "workspace"
+        "project-management",
+        "docs"
       ],
       "source": "official-integration",
       "status": "live",
@@ -1831,9 +1850,11 @@
       "description": "Linear issue tracking system integration for project management.",
       "category": "productivity",
       "tags": [
-        "linear",
+        "project-management",
         "issues",
-        "project-management"
+        "sprints",
+        "roadmaps",
+        "engineering"
       ],
       "source": "community",
       "status": "live",
@@ -1944,9 +1965,11 @@
       "description": "Full-featured Slack integration with Stdio and SSE transports, proxy support.",
       "category": "communication",
       "tags": [
-        "slack",
         "messaging",
-        "channels"
+        "channels",
+        "bots",
+        "notifications",
+        "team"
       ],
       "source": "community",
       "status": "live",
@@ -2042,9 +2065,11 @@
       "description": "Official Stripe MCP for payments, subscriptions, invoices, and knowledge base.",
       "category": "commerce",
       "tags": [
-        "stripe",
         "payments",
-        "subscriptions"
+        "subscriptions",
+        "invoicing",
+        "checkout",
+        "api"
       ],
       "source": "official-integration",
       "status": "live",
@@ -2068,11 +2093,13 @@
       "name": "Alpaca",
       "url": "https://github.com/alpacahq/alpaca-mcp-server",
       "description": "Trade stocks/options and analyze market data via Alpaca.",
-      "category": "commerce",
+      "category": "finance",
       "tags": [
-        "stocks",
         "trading",
-        "market-data"
+        "stocks",
+        "api",
+        "commission-free",
+        "algorithmic"
       ],
       "source": "official-integration",
       "status": "live",
@@ -2082,11 +2109,14 @@
       "name": "AlphaVantage",
       "url": "https://mcp.alphavantage.co/",
       "description": "Connect to 100+ APIs for financial market data and analytics.",
-      "category": "commerce",
+      "category": "finance",
       "tags": [
-        "finance",
         "market-data",
-        "api"
+        "stocks",
+        "forex",
+        "crypto",
+        "api",
+        "free-tier"
       ],
       "source": "official-integration",
       "status": "live",
@@ -2125,7 +2155,7 @@
       "name": "Armor Crypto MCP",
       "url": "https://github.com/armorwallet/armor-crypto-mcp",
       "description": "Blockchain interaction, staking, DeFi, swaps, and wallet management.",
-      "category": "commerce",
+      "category": "finance",
       "tags": [
         "crypto",
         "defi",
@@ -2140,7 +2170,7 @@
       "name": "Bankless Onchain",
       "url": "https://github.com/bankless/onchain-mcp",
       "description": "Query ERC20 tokens, transaction history, and smart contract state.",
-      "category": "commerce",
+      "category": "finance",
       "tags": [
         "blockchain",
         "erc20",
@@ -4821,10 +4851,10 @@
       "status": "live",
       "tags": [
         "browser",
-        "automation",
         "testing",
-        "playwright",
-        "microsoft"
+        "automation",
+        "e2e",
+        "accessibility"
       ],
       "platform": "mcp"
     },
@@ -4836,10 +4866,10 @@
       "source": "official-integration",
       "status": "live",
       "tags": [
-        "scraping",
+        "web-scraping",
         "crawling",
-        "web-data",
-        "markdown"
+        "markdown",
+        "extraction"
       ],
       "platform": "mcp"
     },
@@ -4851,10 +4881,10 @@
       "source": "community",
       "status": "live",
       "tags": [
-        "scraping",
-        "crawling",
-        "self-hosted",
-        "research"
+        "web-scraping",
+        "ai-extraction",
+        "async",
+        "open-source"
       ],
       "platform": "mcp"
     },
@@ -4876,68 +4906,70 @@
     {
       "name": "SonarQube MCP",
       "description": "Official SonarQube MCP server for code quality and security analysis. Integrates SonarQube findings directly into AI workflows.",
-      "category": "developer-tools",
+      "category": "security",
       "url": "https://github.com/SonarSource/sonarqube-mcp-server",
       "source": "official-integration",
       "status": "live",
       "tags": [
         "code-quality",
         "security",
-        "static-analysis",
-        "sonarqube"
+        "30+-languages",
+        "technical-debt"
       ],
       "platform": "mcp"
     },
     {
       "name": "Semgrep MCP",
       "description": "Official MCP server for Semgrep, enabling AI agents to scan code for security vulnerabilities using custom and community rules.",
-      "category": "developer-tools",
+      "category": "security",
       "url": "https://github.com/semgrep/mcp",
       "source": "official-integration",
       "status": "live",
       "tags": [
-        "security",
         "sast",
-        "vulnerability",
-        "semgrep"
+        "static-analysis",
+        "custom-rules",
+        "code-quality",
+        "ci-gating"
       ],
       "platform": "mcp"
     },
     {
       "name": "Trivy MCP (Aqua Security)",
       "description": "Official Trivy MCP plugin for scanning filesystems, container images, and repos for vulnerabilities, misconfigurations, and secrets.",
-      "category": "developer-tools",
+      "category": "security",
       "url": "https://github.com/aquasecurity/trivy-mcp",
       "source": "official-integration",
       "status": "live",
       "tags": [
-        "security",
-        "vulnerability",
         "containers",
+        "vulnerability",
+        "kubernetes",
         "scanning",
-        "trivy"
+        "sbom"
       ],
       "platform": "mcp"
     },
     {
       "name": "Snyk MCP",
       "description": "MCP server for Snyk security scanning, integrating dependency and code vulnerability detection into AI assistant workflows.",
-      "category": "developer-tools",
+      "category": "security",
       "url": "https://github.com/sammcj/mcp-snyk",
       "source": "community",
       "status": "beta",
       "tags": [
-        "security",
         "vulnerability",
         "dependencies",
-        "snyk"
+        "containers",
+        "sast",
+        "devsecops"
       ],
       "platform": "mcp"
     },
     {
       "name": "MCP Security Hub",
       "description": "Collection of MCP servers bringing offensive security tools (Nmap, Ghidra, Nuclei, SQLMap, Hashcat) to AI assistants for penetration testing.",
-      "category": "developer-tools",
+      "category": "security",
       "url": "https://github.com/FuzzingLabs/mcp-security-hub",
       "source": "community",
       "status": "live",
@@ -4953,14 +4985,14 @@
     {
       "name": "Ghidra MCP",
       "description": "MCP server for Ghidra enabling AI-powered reverse engineering. Exposes decompilation, symbol management, and binary analysis tools.",
-      "category": "developer-tools",
+      "category": "security",
       "url": "https://github.com/LaurieWired/GhidraMCP",
       "source": "community",
       "status": "live",
       "tags": [
         "reverse-engineering",
         "binary-analysis",
-        "ghidra",
+        "decompilation",
         "security"
       ],
       "platform": "mcp"
@@ -4973,10 +5005,10 @@
       "source": "official-integration",
       "status": "live",
       "tags": [
-        "terraform",
-        "iac",
-        "hashicorp",
-        "infrastructure"
+        "infrastructure-as-code",
+        "provisioning",
+        "multi-cloud",
+        "hcl"
       ],
       "platform": "mcp"
     },
@@ -5067,10 +5099,11 @@
       "source": "official-integration",
       "status": "live",
       "tags": [
-        "supabase",
-        "postgres",
-        "serverless",
-        "realtime"
+        "database",
+        "auth",
+        "storage",
+        "realtime",
+        "postgres"
       ],
       "platform": "mcp"
     },
@@ -5082,10 +5115,11 @@
       "source": "official-integration",
       "status": "live",
       "tags": [
-        "elasticsearch",
         "search",
         "analytics",
-        "elastic"
+        "logs",
+        "full-text",
+        "vector"
       ],
       "platform": "mcp"
     },
@@ -5142,11 +5176,11 @@
       "source": "official-integration",
       "status": "live",
       "tags": [
-        "grafana",
-        "prometheus",
-        "monitoring",
         "observability",
-        "loki"
+        "dashboards",
+        "metrics",
+        "alerting",
+        "prometheus"
       ],
       "platform": "mcp"
     },
@@ -5158,10 +5192,11 @@
       "source": "community",
       "status": "live",
       "tags": [
-        "datadog",
         "monitoring",
-        "observability",
-        "incidents"
+        "apm",
+        "logs",
+        "traces",
+        "observability"
       ],
       "platform": "mcp"
     },
@@ -5175,8 +5210,8 @@
       "tags": [
         "documentation",
         "context",
-        "libraries",
-        "upstash"
+        "version-aware",
+        "docs-as-context"
       ],
       "platform": "mcp"
     },
@@ -5353,16 +5388,16 @@
     {
       "name": "OWASP ZAP MCP",
       "description": "Exposes OWASP ZAP as an MCP server for AI-driven security testing including spider scans, active scans, OpenAPI import, and report generation.",
-      "category": "developer-tools",
+      "category": "security",
       "url": "https://github.com/dtkmn/mcp-zap-server",
       "source": "community",
       "status": "live",
       "tags": [
-        "owasp",
-        "zap",
-        "security",
-        "web-scanning",
-        "dast"
+        "dast",
+        "web-security",
+        "pentesting",
+        "vulnerability",
+        "scanning"
       ],
       "platform": "mcp"
     },
@@ -6181,6 +6216,263 @@
       "source": "official",
       "status": "live",
       "platform": "copilot"
+    },
+    {
+      "name": "Bright Data MCP",
+      "url": "https://github.com/brightdata/brightdata-mcp",
+      "description": "All-in-one MCP server for public web access — scraping, search, and structured data extraction at scale.",
+      "category": "search-web",
+      "tags": [
+        "web-scraping",
+        "data-extraction",
+        "search",
+        "at-scale",
+        "proxy"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "GitMCP",
+      "url": "https://gitmcp.io/",
+      "description": "Turns any GitHub repo or docs into a remote MCP server endpoint. Instant documentation-as-context for AI agents.",
+      "category": "developer-tools",
+      "tags": [
+        "github",
+        "documentation",
+        "context",
+        "instant",
+        "remote"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "MCP App Builder",
+      "url": "https://github.com/mcp-tool-shop-org/mcp-app-builder",
+      "description": "Build MCP servers with interactive UI components from VS Code. Supports the new MCP Apps standard (January 2026).",
+      "category": "developer-tools",
+      "tags": [
+        "builder",
+        "vscode",
+        "ui-components"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "ReactBits MCP",
+      "url": "https://github.com/",
+      "description": "Brings 135+ animated React components to the MCP ecosystem. One of the most popular MCP servers by views.",
+      "category": "developer-tools",
+      "tags": [
+        "react",
+        "components",
+        "ui"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "MCP Code",
+      "url": "https://github.com/vaur94/mcp-code",
+      "description": "Production-grade MCP server for semantic coding workflows and AI coding-agent acceleration.",
+      "category": "developer-tools",
+      "tags": [
+        "coding",
+        "semantic",
+        "agents"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Unipile MCP",
+      "url": "https://github.com/",
+      "description": "Unified API MCP server for LinkedIn, WhatsApp, Email, and Calendar — multi-channel communication through one interface.",
+      "category": "communication",
+      "tags": [
+        "linkedin",
+        "whatsapp",
+        "email",
+        "calendar"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Blynk IoT MCP",
+      "url": "https://github.com/",
+      "description": "MCP server for Blynk IoT platform — control and monitor IoT devices through AI agents.",
+      "category": "science",
+      "tags": [
+        "iot",
+        "blynk",
+        "devices"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "K8sGPT MCP",
+      "url": "https://github.com/k8sgpt-ai/k8sgpt",
+      "description": "AI-powered Kubernetes diagnostics via MCP. Scans clusters, diagnoses issues in plain English, and suggests fixes.",
+      "category": "cloud",
+      "tags": [
+        "kubernetes",
+        "diagnostics",
+        "troubleshooting",
+        "cncf",
+        "plain-english"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "NCP (MCP Orchestration)",
+      "url": "https://github.com/",
+      "description": "MCP orchestration server that coordinates multiple MCP servers and routes requests intelligently.",
+      "category": "developer-tools",
+      "tags": [
+        "orchestration",
+        "routing",
+        "multi-server"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "GPT Researcher MCP",
+      "url": "https://github.com/",
+      "description": "Multi-source research agent accessible via MCP. Searches, reads, and synthesizes information from multiple web sources.",
+      "category": "search-web",
+      "tags": [
+        "research",
+        "multi-source",
+        "synthesis",
+        "deep-research",
+        "reports"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "DuckDuckGo MCP",
+      "url": "https://github.com/",
+      "description": "Privacy-focused web search via MCP using DuckDuckGo. No tracking, no ads.",
+      "category": "search-web",
+      "tags": [
+        "search",
+        "privacy",
+        "no-tracking",
+        "web-search"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Run Python MCP",
+      "url": "https://github.com/",
+      "description": "Sandboxed Python code execution MCP server. Run Python scripts safely from AI agents.",
+      "category": "developer-tools",
+      "tags": [
+        "python",
+        "sandbox",
+        "execution"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "n8n MCP",
+      "url": "https://github.com/",
+      "description": "Workflow orchestration MCP server powered by n8n. Connect AI agents to 400+ app integrations.",
+      "category": "productivity",
+      "tags": [
+        "workflow",
+        "automation",
+        "400+-integrations",
+        "self-hosted",
+        "orchestration"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "OpenBB MCP",
+      "url": "https://github.com/OpenBB-finance/OpenBB",
+      "description": "MCP server exposing OpenBB's 600+ financial data commands — equity, crypto, forex, macro, and options data for AI agents.",
+      "category": "finance",
+      "tags": [
+        "finance",
+        "market-data",
+        "equity",
+        "crypto",
+        "forex",
+        "quant",
+        "600+-commands"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Semrush MCP",
+      "url": "https://github.com/",
+      "description": "MCP server for Semrush SEO platform. Keyword research, site audits, and competitive analysis through AI agents.",
+      "category": "marketing",
+      "tags": [
+        "seo",
+        "keyword-research",
+        "analytics"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Mailchimp MCP",
+      "url": "https://github.com/",
+      "description": "MCP server for Mailchimp email marketing. Manage campaigns, audiences, and analytics via AI agents.",
+      "category": "marketing",
+      "tags": [
+        "email",
+        "campaigns",
+        "marketing"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Nuclei MCP",
+      "url": "https://github.com/",
+      "description": "MCP server for Project Discovery's Nuclei vulnerability scanner. Template-based scanning for web apps, APIs, and cloud configs.",
+      "category": "security",
+      "tags": [
+        "vulnerability",
+        "scanning",
+        "templates",
+        "web-apps",
+        "apis",
+        "cloud"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
     }
   ]
 }
