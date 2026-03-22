@@ -2,7 +2,7 @@
 
 A comprehensive catalog of **410+ AI integrations** across 6 major platforms — browse MCP servers, ChatGPT plugins, LLM tools, and more in one place.
 
-**[Live Demo](https://mcp-catalog.vercel.app)** (if deployed)
+**[Live Demo](https://arturas.digital/lab/mcp-catalog/)**
 
 ![Next.js](https://img.shields.io/badge/Next.js-black?logo=next.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
