@@ -1364,7 +1364,7 @@
       ],
       "source": "community",
       "status": "live",
-      "platform": "mcp"
+      "platform": "llama"
     },
     {
       "name": "Google Gemini Bridge",
@@ -1378,7 +1378,7 @@
       ],
       "source": "community",
       "status": "live",
-      "platform": "mcp"
+      "platform": "gemini"
     },
     {
       "name": "Grok MCP (xAI)",
@@ -1462,7 +1462,7 @@
       ],
       "source": "community",
       "status": "live",
-      "platform": "mcp"
+      "platform": "gemini"
     },
     {
       "name": "Neurolink (Juspay)",
@@ -1490,6 +1490,310 @@
       ],
       "source": "community",
       "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Qwen 3 (Alibaba Cloud)",
+      "description": "Alibaba's flagship open-weight LLM family with dense and MoE models up to 235B parameters. Supports 100+ languages, agentic coding, and MCP tool use natively.",
+      "category": "ai-ml",
+      "url": "https://huggingface.co/collections/Qwen/qwen3-67dd247413f0e2e4f653967f",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "qwen",
+        "alibaba",
+        "open-weight",
+        "multilingual",
+        "moe",
+        "mcp-native"
+      ],
+      "platform": "qwen"
+    },
+    {
+      "name": "Qwen Chat (Tongyi Qianwen)",
+      "description": "Alibaba's conversational AI assistant powered by Qwen models. Features web search, image generation, code execution, and file analysis.",
+      "category": "ai-ml",
+      "url": "https://chat.qwen.ai",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "qwen",
+        "alibaba",
+        "chat",
+        "assistant",
+        "multimodal"
+      ],
+      "platform": "qwen"
+    },
+    {
+      "name": "Qwen-Agent Framework",
+      "description": "Official agent framework for Qwen models with built-in MCP support, tool use, RAG, and multi-agent orchestration capabilities.",
+      "category": "ai-ml",
+      "url": "https://github.com/QwenLM/Qwen-Agent",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "qwen",
+        "agents",
+        "framework",
+        "rag",
+        "mcp"
+      ],
+      "platform": "qwen"
+    },
+    {
+      "name": "QwQ (Qwen Reasoning)",
+      "description": "Qwen's dedicated reasoning model with deep thinking and step-by-step problem solving for math, code, and scientific tasks.",
+      "category": "ai-ml",
+      "url": "https://huggingface.co/Qwen/QwQ-32B",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "qwen",
+        "reasoning",
+        "thinking",
+        "math",
+        "science"
+      ],
+      "platform": "qwen"
+    },
+    {
+      "name": "Qwen2.5-Coder",
+      "description": "Qwen's specialized code LLM supporting 90+ programming languages. Excels at code generation, completion, repair, and reasoning.",
+      "category": "ai-ml",
+      "url": "https://huggingface.co/collections/Qwen/qwen25-coder-66eaa22e6f99801bf65b0c2f",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "qwen",
+        "coding",
+        "code-generation",
+        "multilingual"
+      ],
+      "platform": "qwen"
+    },
+    {
+      "name": "Qwen2.5-VL (Vision-Language)",
+      "description": "Qwen's multimodal vision-language model for image understanding, video analysis, document parsing, and visual reasoning.",
+      "category": "ai-ml",
+      "url": "https://huggingface.co/collections/Qwen/qwen25-vl-66e36a80c563110bff27a624",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "qwen",
+        "vision",
+        "multimodal",
+        "video",
+        "document-parsing"
+      ],
+      "platform": "qwen"
+    },
+    {
+      "name": "LLaMA 4 (Meta)",
+      "description": "Meta's latest open-weight LLM family including Scout (17B active/109B MoE) and Maverick (17B active/400B MoE) with a 10M token context window.",
+      "category": "ai-ml",
+      "url": "https://huggingface.co/collections/meta-llama/llama-4-67f0c30d42e4c1437c73c94c",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "llama",
+        "meta",
+        "open-weight",
+        "moe",
+        "long-context"
+      ],
+      "platform": "llama"
+    },
+    {
+      "name": "LLaMA 3.3 (Meta)",
+      "description": "Meta's 70B parameter open-weight model matching LLaMA 3.1 405B performance. Industry standard for fine-tuning and local deployment.",
+      "category": "ai-ml",
+      "url": "https://huggingface.co/meta-llama/Llama-3.3-70B-Instruct",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "llama",
+        "meta",
+        "open-weight",
+        "fine-tuning",
+        "70b"
+      ],
+      "platform": "llama"
+    },
+    {
+      "name": "Meta AI (Chat Assistant)",
+      "description": "Meta's conversational AI assistant powered by LLaMA, integrated across Facebook, Instagram, WhatsApp, and Messenger with image generation.",
+      "category": "ai-ml",
+      "url": "https://www.meta.ai",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "llama",
+        "meta",
+        "chat",
+        "social-media",
+        "image-generation"
+      ],
+      "platform": "llama"
+    },
+    {
+      "name": "LLaMA Stack",
+      "description": "Meta's official toolkit for building production LLaMA applications with inference, safety, RAG, tool use, and agentic workflows out of the box.",
+      "category": "ai-ml",
+      "url": "https://github.com/meta-llama/llama-stack",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "llama",
+        "meta",
+        "framework",
+        "agents",
+        "rag",
+        "inference"
+      ],
+      "platform": "llama"
+    },
+    {
+      "name": "Code LLaMA (Meta)",
+      "description": "Meta's specialized code generation model built on LLaMA for code completion, generation, and infilling across popular programming languages.",
+      "category": "ai-ml",
+      "url": "https://huggingface.co/codellama",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "llama",
+        "meta",
+        "coding",
+        "code-generation",
+        "infilling"
+      ],
+      "platform": "llama"
+    },
+    {
+      "name": "Mistral AI MCP Bridge",
+      "description": "MCP bridge server for Mistral AI models including Mistral Large, Medium, and Codestral for code and general-purpose tasks.",
+      "category": "ai-ml",
+      "url": "https://github.com/mistralai",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "mistral",
+        "llm",
+        "bridge",
+        "codestral",
+        "european-ai"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "Claude MCP (Anthropic)",
+      "description": "Anthropic's Claude models with native MCP support. Claude pioneered MCP adoption for tool use, computer use, and agentic workflows.",
+      "category": "ai-ml",
+      "url": "https://docs.anthropic.com/en/docs/agents-and-tools/mcp",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "claude",
+        "anthropic",
+        "mcp-native",
+        "agents",
+        "tool-use"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "Gemma 3 (Google)",
+      "description": "Google's lightweight open model family (1B-27B) with multimodal vision, 128K context, and function calling. Optimized for on-device and edge deployment.",
+      "category": "ai-ml",
+      "url": "https://huggingface.co/collections/google/gemma-3-release-67c6c6f89c4f76b30750e3ea",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "gemma",
+        "google",
+        "open-weight",
+        "edge",
+        "multimodal"
+      ],
+      "platform": "gemini"
+    },
+    {
+      "name": "Phi-4 (Microsoft)",
+      "description": "Microsoft's small language model family excelling at reasoning, math, and code. Includes Phi-4-mini and Phi-4-multimodal variants.",
+      "category": "ai-ml",
+      "url": "https://huggingface.co/collections/microsoft/phi-4-677e9380e514feb5577a40e4",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "phi",
+        "microsoft",
+        "small-model",
+        "reasoning",
+        "math"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "DeepSeek-V3",
+      "description": "DeepSeek's 671B MoE model with 37B active parameters. Top-tier performance on coding, math, and reasoning benchmarks at low cost.",
+      "category": "ai-ml",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3-0324",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "deepseek",
+        "moe",
+        "open-weight",
+        "coding",
+        "reasoning"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "DeepSeek-R1 (Reasoning)",
+      "description": "DeepSeek's reasoning model rivaling OpenAI o1. Features chain-of-thought reasoning for complex math, science, and coding problems.",
+      "category": "ai-ml",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "deepseek",
+        "reasoning",
+        "thinking",
+        "open-weight",
+        "math"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "Cohere Command R+ (MCP)",
+      "description": "Cohere's enterprise LLM with strong RAG, multilingual, and tool use capabilities. Optimized for business applications and grounded generation.",
+      "category": "ai-ml",
+      "url": "https://cohere.com/command",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "cohere",
+        "enterprise",
+        "rag",
+        "multilingual",
+        "grounded"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "Yi-Lightning (01.AI)",
+      "description": "01.AI's high-performance LLM by Kai-Fu Lee. Fast inference speeds with competitive coding and reasoning capabilities.",
+      "category": "ai-ml",
+      "url": "https://huggingface.co/01-ai",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "yi",
+        "01ai",
+        "open-weight",
+        "fast-inference"
+      ],
       "platform": "mcp"
     },
     {
@@ -4507,6 +4811,1376 @@
         "workspace"
       ],
       "platform": "chatgpt"
+    },
+    {
+      "name": "Playwright MCP (Microsoft)",
+      "description": "Official Microsoft MCP server for browser automation using Playwright. Enables AI agents to interact with web pages via structured accessibility trees.",
+      "category": "developer-tools",
+      "url": "https://github.com/microsoft/playwright-mcp",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "browser",
+        "automation",
+        "testing",
+        "playwright",
+        "microsoft"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "Firecrawl MCP",
+      "description": "Official Firecrawl MCP server for powerful web scraping, crawling, and search. Turns websites into LLM-ready markdown or structured data.",
+      "category": "search-web",
+      "url": "https://github.com/firecrawl/firecrawl-mcp-server",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "scraping",
+        "crawling",
+        "web-data",
+        "markdown"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "Crawl4AI MCP",
+      "description": "High-performance MCP server for web scraping, crawling, and deep research. Self-hosted and free alternative to Firecrawl.",
+      "category": "search-web",
+      "url": "https://github.com/BjornMelin/crawl4ai-mcp-server",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "scraping",
+        "crawling",
+        "self-hosted",
+        "research"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "Lightpanda MCP",
+      "description": "MCP server for Lightpanda, an ultra-fast headless browser built for AI web automation with near-zero overhead.",
+      "category": "search-web",
+      "url": "https://github.com/lightpanda-io/gomcp",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "browser",
+        "headless",
+        "automation",
+        "go"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "SonarQube MCP",
+      "description": "Official SonarQube MCP server for code quality and security analysis. Integrates SonarQube findings directly into AI workflows.",
+      "category": "developer-tools",
+      "url": "https://github.com/SonarSource/sonarqube-mcp-server",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "code-quality",
+        "security",
+        "static-analysis",
+        "sonarqube"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "Semgrep MCP",
+      "description": "Official MCP server for Semgrep, enabling AI agents to scan code for security vulnerabilities using custom and community rules.",
+      "category": "developer-tools",
+      "url": "https://github.com/semgrep/mcp",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "security",
+        "sast",
+        "vulnerability",
+        "semgrep"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "Trivy MCP (Aqua Security)",
+      "description": "Official Trivy MCP plugin for scanning filesystems, container images, and repos for vulnerabilities, misconfigurations, and secrets.",
+      "category": "developer-tools",
+      "url": "https://github.com/aquasecurity/trivy-mcp",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "security",
+        "vulnerability",
+        "containers",
+        "scanning",
+        "trivy"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "Snyk MCP",
+      "description": "MCP server for Snyk security scanning, integrating dependency and code vulnerability detection into AI assistant workflows.",
+      "category": "developer-tools",
+      "url": "https://github.com/sammcj/mcp-snyk",
+      "source": "community",
+      "status": "beta",
+      "tags": [
+        "security",
+        "vulnerability",
+        "dependencies",
+        "snyk"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "MCP Security Hub",
+      "description": "Collection of MCP servers bringing offensive security tools (Nmap, Ghidra, Nuclei, SQLMap, Hashcat) to AI assistants for penetration testing.",
+      "category": "developer-tools",
+      "url": "https://github.com/FuzzingLabs/mcp-security-hub",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "security",
+        "pentesting",
+        "nmap",
+        "offensive",
+        "vulnerability"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "Ghidra MCP",
+      "description": "MCP server for Ghidra enabling AI-powered reverse engineering. Exposes decompilation, symbol management, and binary analysis tools.",
+      "category": "developer-tools",
+      "url": "https://github.com/LaurieWired/GhidraMCP",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "reverse-engineering",
+        "binary-analysis",
+        "ghidra",
+        "security"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "Terraform MCP (HashiCorp)",
+      "description": "Official HashiCorp MCP server for Terraform Registry and HCP. Query modules, providers, manage workspaces, and trigger infrastructure runs.",
+      "category": "cloud",
+      "url": "https://github.com/hashicorp/terraform-mcp-server",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "terraform",
+        "iac",
+        "hashicorp",
+        "infrastructure"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "Pulumi MCP",
+      "description": "Official Pulumi MCP server for AI-assisted infrastructure as code. Query stacks, search cloud resources, and launch automated infrastructure workflows.",
+      "category": "cloud",
+      "url": "https://www.pulumi.com/docs/ai/mcp-server/",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "pulumi",
+        "iac",
+        "infrastructure",
+        "cloud"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "Cloudflare MCP",
+      "description": "Official Cloudflare API MCP server with access to 2,500+ endpoints across Workers, R2, D1, DNS, Pages, KV, Zero Trust and more.",
+      "category": "cloud",
+      "url": "https://github.com/cloudflare/mcp",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "cloudflare",
+        "workers",
+        "r2",
+        "dns",
+        "edge"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "CircleCI MCP",
+      "description": "Official CircleCI MCP server for CI/CD integration. Debug builds, analyze test results, detect flaky tests, and optimize pipelines.",
+      "category": "developer-tools",
+      "url": "https://github.com/CircleCI-Public/mcp-server-circleci",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "ci-cd",
+        "circleci",
+        "builds",
+        "testing",
+        "devops"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "Vercel MCP",
+      "description": "Vercel MCP adapter for deploying and managing applications. Integrates with the Next.js ecosystem with OAuth support and Fluid Compute scaling.",
+      "category": "cloud",
+      "url": "https://vercel.com/docs/mcp",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "vercel",
+        "deployment",
+        "hosting",
+        "nextjs",
+        "serverless"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "Netlify MCP",
+      "description": "MCP server for managing Netlify deployments, builds, and site configuration. Deploy and scale serverless backends via Git or CLI.",
+      "category": "cloud",
+      "url": "https://github.com/netlify/netlify-mcp-server",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "netlify",
+        "deployment",
+        "hosting",
+        "serverless",
+        "jamstack"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "Supabase MCP",
+      "description": "Connect Supabase to AI assistants for managing tables, querying data, fetching config, and managing edge functions through natural language.",
+      "category": "databases",
+      "url": "https://github.com/supabase-community/supabase-mcp",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "supabase",
+        "postgres",
+        "serverless",
+        "realtime"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "Elasticsearch MCP (Elastic)",
+      "description": "Official Elastic MCP server connecting AI agents to Elasticsearch for natural language queries, index management, and data analysis.",
+      "category": "databases",
+      "url": "https://github.com/elastic/mcp-server-elasticsearch",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "elasticsearch",
+        "search",
+        "analytics",
+        "elastic"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "Pinecone MCP",
+      "description": "MCP server for Pinecone vector database operations including index management, upsert, query, and semantic search for RAG applications.",
+      "category": "databases",
+      "url": "https://github.com/zx8086/pinecone-vector-db-mcp-server",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "pinecone",
+        "vector-database",
+        "embeddings",
+        "rag"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "ChromaDB MCP",
+      "description": "Official Chroma MCP server providing vector database capabilities with vector search, full-text search, metadata filtering, and collection management.",
+      "category": "databases",
+      "url": "https://github.com/chroma-core/chroma-mcp",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "chromadb",
+        "vector-database",
+        "embeddings",
+        "rag"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "Milvus MCP (Zilliz)",
+      "description": "Official Milvus MCP server for vector database access including collection management, similarity search, and hybrid search via stdio and SSE.",
+      "category": "databases",
+      "url": "https://github.com/zilliztech/mcp-server-milvus",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "milvus",
+        "vector-database",
+        "zilliz",
+        "similarity-search"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "Grafana MCP",
+      "description": "Official Grafana MCP server for querying Prometheus metrics, LogQL queries against Loki, dashboard management, and distributed trace access.",
+      "category": "developer-tools",
+      "url": "https://github.com/grafana/mcp-grafana",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "grafana",
+        "prometheus",
+        "monitoring",
+        "observability",
+        "loki"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "Datadog MCP",
+      "description": "MCP server for Datadog API enabling incident management, metrics monitoring, alerting, and observability tools through AI assistants.",
+      "category": "developer-tools",
+      "url": "https://github.com/winor30/mcp-server-datadog",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "datadog",
+        "monitoring",
+        "observability",
+        "incidents"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "Context7 MCP (Upstash)",
+      "description": "Injects version-specific, up-to-date library documentation directly into AI prompts. The most viewed MCP server on FastMCP.",
+      "category": "developer-tools",
+      "url": "https://github.com/upstash/context7",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "documentation",
+        "context",
+        "libraries",
+        "upstash"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "OpenAPI/Swagger MCP",
+      "description": "Turns OpenAPI/Swagger specifications into MCP resources, enabling AI agents to explore and interact with any REST API through standardized tools.",
+      "category": "developer-tools",
+      "url": "https://github.com/ivo-toby/mcp-openapi-server",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "openapi",
+        "swagger",
+        "rest-api",
+        "documentation"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "Jupyter MCP (Datalayer)",
+      "description": "MCP server for real-time Jupyter notebook interaction. Execute cells, analyze outputs, create plots, and run data transformations via AI agents.",
+      "category": "developer-tools",
+      "url": "https://github.com/datalayer/jupyter-mcp-server",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "jupyter",
+        "notebook",
+        "data-science",
+        "python"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "tl;dv MCP",
+      "description": "Meeting intelligence MCP server for Google Meet, Zoom, and Microsoft Teams. Access transcripts, AI highlights, and meeting metadata.",
+      "category": "communication",
+      "url": "https://github.com/tldv-public/tldv-mcp-server",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "meetings",
+        "transcription",
+        "zoom",
+        "teams",
+        "google-meet"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "X/Twitter MCP",
+      "description": "MCP server for X/Twitter API integration. Post tweets, search, manage timelines, engagement tracking, and user lookup via AI assistants.",
+      "category": "communication",
+      "url": "https://github.com/taazkareem/twitter-mcp-server",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "twitter",
+        "x",
+        "social-media",
+        "api"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "Composio MCP",
+      "description": "Universal MCP server connecting AI tools to 500+ apps with tool search, context management, and OAuth authentication for cross-app workflows.",
+      "category": "platforms",
+      "url": "https://github.com/ComposioHQ/composio",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "integration",
+        "multi-app",
+        "composio",
+        "oauth",
+        "automation"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "Desktop Commander MCP",
+      "description": "MCP server providing terminal control, file system search, and diff-based file editing. One of the most popular MCP servers for Claude.",
+      "category": "developer-tools",
+      "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "terminal",
+        "shell",
+        "filesystem",
+        "editing",
+        "desktop"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "WCGW (What Could Go Wrong)",
+      "description": "Fully interactive shell and coding agent on MCP clients. Supports background commands, ZSH, multiplexing, and VS Code integration.",
+      "category": "developer-tools",
+      "url": "https://github.com/rusiaaman/wcgw",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "shell",
+        "coding",
+        "agent",
+        "interactive",
+        "vscode"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "Qwen Code MCP",
+      "description": "MCP server bridging AI assistants with Qwen's code analysis, generation, review, refactoring, and explanation capabilities.",
+      "category": "ai-ml",
+      "url": "https://github.com/jeffery9/qwen-mcp-tool",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "qwen",
+        "code-generation",
+        "alibaba",
+        "bridge"
+      ],
+      "platform": "qwen"
+    },
+    {
+      "name": "Qwen Max MCP",
+      "description": "MCP server for the Qwen Max language model, connecting it to external clients for advanced language understanding and generation.",
+      "category": "ai-ml",
+      "url": "https://github.com/66julienmartin/MCP-server-Qwen_Max",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "qwen",
+        "llm",
+        "alibaba",
+        "bridge"
+      ],
+      "platform": "qwen"
+    },
+    {
+      "name": "Queue Pilot (RabbitMQ + Kafka)",
+      "description": "MCP server for message queue development supporting RabbitMQ and Kafka. Inspect queues/topics, view messages, and validate payloads.",
+      "category": "cloud",
+      "url": "https://github.com/LarsCowe/queue-pilot",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "rabbitmq",
+        "kafka",
+        "messaging",
+        "queues",
+        "validation"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "HexStrike AI MCP",
+      "description": "Advanced MCP server letting AI agents autonomously run 150+ cybersecurity tools for automated pentesting and vulnerability discovery.",
+      "category": "developer-tools",
+      "url": "https://github.com/0x4m4/hexstrike-ai",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "pentesting",
+        "cybersecurity",
+        "bug-bounty",
+        "offensive-security"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "OWASP ZAP MCP",
+      "description": "Exposes OWASP ZAP as an MCP server for AI-driven security testing including spider scans, active scans, OpenAPI import, and report generation.",
+      "category": "developer-tools",
+      "url": "https://github.com/dtkmn/mcp-zap-server",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "owasp",
+        "zap",
+        "security",
+        "web-scanning",
+        "dast"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "BrowserStack MCP",
+      "description": "BrowserStack MCP integration for cloud-based cross-browser testing. AI-powered test case generation and Playwright/Selenium automation.",
+      "category": "developer-tools",
+      "url": "https://www.browserstack.com/docs/automate/mcp",
+      "source": "official-integration",
+      "status": "live",
+      "tags": [
+        "testing",
+        "browserstack",
+        "cross-browser",
+        "cloud-testing"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "Cypress MCP",
+      "description": "MCP server that automatically generates Cypress test cases and Page Object Models by analyzing web pages for end-to-end testing.",
+      "category": "developer-tools",
+      "url": "https://github.com/kerrfat/cypress-test-Gen-mcp",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "testing",
+        "cypress",
+        "e2e",
+        "test-generation"
+      ],
+      "platform": "mcp"
+    },
+    {
+      "name": "Spotify App (ChatGPT)",
+      "description": "Control Spotify from within ChatGPT — create playlists, discover music, and get recommendations through conversational prompts.",
+      "category": "creative",
+      "url": "https://openai.com/index/introducing-apps-in-chatgpt/",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "music",
+        "spotify",
+        "playlists",
+        "streaming"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Booking.com App (ChatGPT)",
+      "description": "Search and book hotels, apartments, and travel accommodations through conversational prompts inside ChatGPT.",
+      "category": "commerce",
+      "url": "https://openai.com/index/introducing-apps-in-chatgpt/",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "travel",
+        "hotels",
+        "booking",
+        "accommodation"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Expedia App (ChatGPT)",
+      "description": "Plan trips, search flights, hotels, and vacation packages through an in-chat Expedia experience inside ChatGPT.",
+      "category": "commerce",
+      "url": "https://openai.com/index/introducing-apps-in-chatgpt/",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "travel",
+        "flights",
+        "hotels",
+        "trip-planning"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Zillow App (ChatGPT)",
+      "description": "Search for homes by price, location, bedrooms, and other criteria directly inside ChatGPT conversations.",
+      "category": "commerce",
+      "url": "https://openai.com/index/introducing-apps-in-chatgpt/",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "real-estate",
+        "homes",
+        "property",
+        "search"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Coursera App (ChatGPT)",
+      "description": "Search courses, compare options by ratings and duration, and explore learning materials from Coursera inside ChatGPT.",
+      "category": "education",
+      "url": "https://openai.com/index/introducing-apps-in-chatgpt/",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "courses",
+        "learning",
+        "education",
+        "online-courses"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Figma App (ChatGPT)",
+      "description": "Generate diagrams, flowcharts, product roadmaps, and design assets from Figma directly within ChatGPT conversations.",
+      "category": "creative",
+      "url": "https://openai.com/index/introducing-apps-in-chatgpt/",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "design",
+        "figma",
+        "diagrams",
+        "ui-ux"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "DoorDash App (ChatGPT)",
+      "description": "Get meal and recipe suggestions, then instantly build grocery lists and order delivery from local stores via DoorDash inside ChatGPT.",
+      "category": "commerce",
+      "url": "https://about.doordash.com/en-us/news/openai",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "food-delivery",
+        "groceries",
+        "recipes",
+        "doordash"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Instacart App (ChatGPT)",
+      "description": "Order groceries, build shopping lists from recipes, and get delivery through Instacart directly from ChatGPT.",
+      "category": "commerce",
+      "url": "https://openai.com/index/introducing-apps-in-chatgpt/",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "groceries",
+        "delivery",
+        "shopping",
+        "instacart"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Wix App (ChatGPT)",
+      "description": "Create functional websites from text or voice prompts, and manage an existing Wix business (scheduling, payments, SEO) inside ChatGPT.",
+      "category": "developer-tools",
+      "url": "https://openai.com/index/introducing-apps-in-chatgpt/",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "website-builder",
+        "wix",
+        "web-design",
+        "no-code"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Angi App (ChatGPT)",
+      "description": "Ask home improvement questions and request quotes from professionals directly within ChatGPT conversations.",
+      "category": "commerce",
+      "url": "https://openai.com/index/introducing-apps-in-chatgpt/",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "home-services",
+        "contractors",
+        "repairs",
+        "angi"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Quizlet App (ChatGPT)",
+      "description": "Convert ChatGPT conversations or notes into study materials and flashcard sets via Quizlet integration.",
+      "category": "education",
+      "url": "https://openai.com/index/introducing-apps-in-chatgpt/",
+      "source": "partner",
+      "status": "live",
+      "tags": [
+        "flashcards",
+        "studying",
+        "quizlet",
+        "learning"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Uber App (ChatGPT)",
+      "description": "Request rides, check pricing, and manage Uber trips through conversational prompts inside ChatGPT.",
+      "category": "commerce",
+      "url": "https://openai.com/index/introducing-apps-in-chatgpt/",
+      "source": "partner",
+      "status": "beta",
+      "tags": [
+        "rides",
+        "transportation",
+        "uber",
+        "travel"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "OpenTable App (ChatGPT)",
+      "description": "Find restaurants and make dining reservations through OpenTable directly inside ChatGPT.",
+      "category": "commerce",
+      "url": "https://openai.com/index/introducing-apps-in-chatgpt/",
+      "source": "partner",
+      "status": "beta",
+      "tags": [
+        "restaurants",
+        "reservations",
+        "dining",
+        "opentable"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "AllTrails App (ChatGPT)",
+      "description": "Get personalized trail recommendations for hiking, biking, and outdoor activities via AllTrails inside ChatGPT.",
+      "category": "commerce",
+      "url": "https://openai.com/index/introducing-apps-in-chatgpt/",
+      "source": "partner",
+      "status": "beta",
+      "tags": [
+        "hiking",
+        "trails",
+        "outdoor",
+        "alltrails"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Tripadvisor App (ChatGPT)",
+      "description": "Search for travel destinations, read reviews, and plan trips using Tripadvisor data within ChatGPT.",
+      "category": "commerce",
+      "url": "https://openai.com/index/introducing-apps-in-chatgpt/",
+      "source": "partner",
+      "status": "beta",
+      "tags": [
+        "travel",
+        "reviews",
+        "tourism",
+        "tripadvisor"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Target App (ChatGPT)",
+      "description": "Browse and shop Target products through conversational prompts inside ChatGPT.",
+      "category": "commerce",
+      "url": "https://openai.com/index/introducing-apps-in-chatgpt/",
+      "source": "partner",
+      "status": "beta",
+      "tags": [
+        "shopping",
+        "retail",
+        "target",
+        "e-commerce"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Peloton App (ChatGPT)",
+      "description": "Access workout recommendations and manage Peloton fitness activities through ChatGPT integration.",
+      "category": "commerce",
+      "url": "https://openai.com/index/introducing-apps-in-chatgpt/",
+      "source": "partner",
+      "status": "beta",
+      "tags": [
+        "fitness",
+        "workouts",
+        "peloton",
+        "health"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "ChatGPT Tasks (Scheduled Actions)",
+      "description": "Schedule one-time reminders or recurring actions that ChatGPT performs automatically at a future time, such as daily news summaries or calendar reminders.",
+      "category": "official",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "tasks",
+        "reminders",
+        "scheduling",
+        "automation"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Agent Mode (ChatGPT)",
+      "description": "Autonomous agent that can browse the web, fill out forms, book flights, and complete multi-step online tasks on your behalf inside ChatGPT.",
+      "category": "official",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "agent",
+        "automation",
+        "web-browsing",
+        "autonomous"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Interactive Learning Modules (ChatGPT)",
+      "description": "Interactive visual modules covering 70+ math and science topics that let you experiment with formulas, manipulate equations, and see real-time graph changes.",
+      "category": "education",
+      "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "interactive",
+        "math",
+        "science",
+        "learning",
+        "visualization"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "OpenAI Apps SDK",
+      "description": "Developer SDK built on MCP for building third-party in-chat apps that run natively inside ChatGPT, enabling rich interactive UI and agent capabilities.",
+      "category": "developer-tools",
+      "url": "https://openai.com/index/introducing-apps-in-chatgpt/",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "sdk",
+        "developer",
+        "apps",
+        "mcp",
+        "platform"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "OpenAI Agents SDK",
+      "description": "Open-source toolkit for building multi-agent workflows with tool use, handoffs, and guardrails — supports OpenAI, Anthropic, Google, and open-source models.",
+      "category": "developer-tools",
+      "url": "https://openai.com/index/new-tools-and-features-in-the-responses-api/",
+      "source": "official",
+      "status": "live",
+      "tags": [
+        "agents",
+        "sdk",
+        "multi-agent",
+        "orchestration",
+        "open-source"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Sous Chef GPT",
+      "description": "Generates personalized recipes based on your dietary preferences, available ingredients, and cooking skill level.",
+      "category": "productivity",
+      "url": "https://chatgpt.com/g/g-3VrgJ1GpH-sous-chef",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "cooking",
+        "recipes",
+        "meal-planning",
+        "food"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "The Negotiator GPT",
+      "description": "Teaches persuasive negotiation skills through roleplay scenarios for salary, business deals, and everyday situations.",
+      "category": "productivity",
+      "url": "https://chatgpt.com/g/g-TTTAK9GuS-the-negotiator",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "negotiation",
+        "persuasion",
+        "business",
+        "coaching"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "GPT Finder",
+      "description": "Searches OpenAI's GPT Store database and ranks custom GPTs by popularity and relevance to help users find the best tools.",
+      "category": "search-web",
+      "url": "https://chatgpt.com/g/g-tMbMqsdDi-gpt-finder",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "gpt-store",
+        "search",
+        "discovery",
+        "directory"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Hemingway Editor GPT",
+      "description": "Refines writing by improving readability, reducing complexity, and suggesting clearer phrasing in the style of Hemingway Editor.",
+      "category": "writing",
+      "url": "https://chatgpt.com/g/g-mQeyBGkNV-hemingway",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "writing",
+        "editing",
+        "readability",
+        "style"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "SEO Core AI GPT",
+      "description": "Performs comprehensive website audits for both Google and AI search engines, analyzing AI visibility, on-page SEO, and competitor citations.",
+      "category": "search-web",
+      "url": "https://chatgpt.com/g/g-gwIx9Wrxv-seo-core-ai",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "seo",
+        "audit",
+        "ai-visibility",
+        "search-optimization"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Boolio Invest GPT",
+      "description": "Analyzes global stocks and ETFs using quantitative factor methodologies, providing financial metrics, risk/return profiles, and a unique Boolio score.",
+      "category": "commerce",
+      "url": "https://chatgpt.com/g/g-37lQRDVEd-boolio-global-invest-gpt",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "investing",
+        "stocks",
+        "etf",
+        "financial-analysis"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Keyword Research GPT",
+      "description": "Uses real-time Google data to find trending keywords, analyze competitors, and discover low-volume high-intent keywords for SEO strategy.",
+      "category": "search-web",
+      "url": "https://chatgpt.com/g/g-jkGIzrRsF-keyword-research",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "seo",
+        "keywords",
+        "research",
+        "google"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Sticker Whiz GPT",
+      "description": "Designs custom die-cut stickers using DALL-E 3 and lets you order physical prints of your creations.",
+      "category": "creative",
+      "url": "https://chatgpt.com/g/g-gPRWpLspC-sticker-whiz",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "stickers",
+        "design",
+        "dall-e",
+        "print"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Video AI GPT",
+      "description": "Converts text documents, prompts, or PDFs into engaging videos with customization options for format, style, and branding.",
+      "category": "creative",
+      "url": "https://chatgpt.com/g/g-h8l4uLHFQ-video-ai",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "video",
+        "text-to-video",
+        "content",
+        "multimedia"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Marketer GPT Pro",
+      "description": "Virtual marketing consultant providing strategic advice on target markets, competitor analysis, campaign planning, and marketing funnels.",
+      "category": "commerce",
+      "url": "https://chatgpt.com/g/g-B0q8ANquY-marketer-gpt-pro",
+      "source": "community",
+      "status": "live",
+      "tags": [
+        "marketing",
+        "strategy",
+        "campaigns",
+        "competitor-analysis"
+      ],
+      "platform": "chatgpt"
+    },
+    {
+      "name": "Gemini API",
+      "url": "https://ai.google.dev/gemini-api/docs",
+      "description": "Google's multimodal generative AI API providing access to Gemini models with support for text, images, audio, video, and code generation.",
+      "category": "ai-ml",
+      "tags": [
+        "gemini",
+        "google",
+        "multimodal",
+        "llm",
+        "api"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "gemini"
+    },
+    {
+      "name": "Google AI Studio",
+      "url": "https://ai.google.dev/aistudio",
+      "description": "Browser-based IDE for prototyping and building with Gemini models. Offers prompt testing, model fine-tuning, and the Interactions API for agents.",
+      "category": "developer-tools",
+      "tags": [
+        "gemini",
+        "google",
+        "ide",
+        "prototyping",
+        "prompt-engineering"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "gemini"
+    },
+    {
+      "name": "Gemini App Extensions",
+      "url": "https://gemini.google.com",
+      "description": "Built-in extensions connecting to Google Workspace apps including Gmail, Drive, Docs, Maps, YouTube, Flights, and Hotels.",
+      "category": "productivity",
+      "tags": [
+        "gemini",
+        "google",
+        "gmail",
+        "drive",
+        "maps",
+        "youtube",
+        "workspace"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "gemini"
+    },
+    {
+      "name": "Gemini CLI",
+      "url": "https://github.com/google-gemini/gemini-cli",
+      "description": "Open-source AI agent bringing Gemini into the terminal with 1M token context, Google Search grounding, file operations, and MCP server support.",
+      "category": "developer-tools",
+      "tags": [
+        "gemini",
+        "google",
+        "cli",
+        "terminal",
+        "agent",
+        "open-source",
+        "mcp"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "gemini"
+    },
+    {
+      "name": "Google Gen AI SDK",
+      "url": "https://github.com/googleapis/python-genai",
+      "description": "Unified SDK for accessing Gemini models through both the Developer API and Vertex AI. Available for Python, JavaScript, Go, Java, and C#.",
+      "category": "developer-tools",
+      "tags": [
+        "gemini",
+        "google",
+        "sdk",
+        "python",
+        "javascript",
+        "vertex-ai"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "gemini"
+    },
+    {
+      "name": "Vertex AI (Gemini)",
+      "url": "https://cloud.google.com/vertex-ai/generative-ai/docs/overview",
+      "description": "Google Cloud's enterprise AI platform for deploying Gemini models at scale with grounding, function calling, fine-tuning, and enterprise security.",
+      "category": "cloud",
+      "tags": [
+        "gemini",
+        "google-cloud",
+        "vertex-ai",
+        "enterprise",
+        "deployment"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "gemini"
+    },
+    {
+      "name": "NotebookLM",
+      "url": "https://notebooklm.google.com",
+      "description": "AI-powered research and note-taking tool grounded in user-uploaded sources. Features Audio Overviews, video summaries, quizzes, and flashcards.",
+      "category": "education",
+      "tags": [
+        "gemini",
+        "google",
+        "research",
+        "notes",
+        "audio",
+        "summarization"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "gemini"
+    },
+    {
+      "name": "Google MCP Servers",
+      "url": "https://cloud.google.com/blog/products/ai-machine-learning/announcing-official-mcp-support-for-google-services",
+      "description": "Managed remote MCP servers for Google Cloud services including BigQuery, Maps, Cloud Run, Cloud Storage, AlloyDB, Spanner, Looker, and Pub/Sub.",
+      "category": "cloud",
+      "tags": [
+        "gemini",
+        "google-cloud",
+        "mcp",
+        "bigquery",
+        "maps",
+        "agents"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "gemini"
+    },
+    {
+      "name": "Gemini Code Assist",
+      "url": "https://developers.google.com/gemini-code-assist",
+      "description": "AI coding assistant integrated into VS Code, JetBrains, and Android Studio. Provides code completion, generation, and agentic chat with MCP support.",
+      "category": "developer-tools",
+      "tags": [
+        "gemini",
+        "google",
+        "coding",
+        "ide",
+        "copilot",
+        "agent"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "gemini"
+    },
+    {
+      "name": "Firebase AI Logic (Gemini)",
+      "url": "https://firebase.google.com/docs/ai-logic",
+      "description": "Access Gemini models from mobile and web apps via the Firebase SDK with built-in security for Android, iOS, web, and Flutter.",
+      "category": "platforms",
+      "tags": [
+        "gemini",
+        "firebase",
+        "google",
+        "mobile",
+        "web",
+        "sdk"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "gemini"
+    },
+    {
+      "name": "GitHub Copilot",
+      "url": "https://github.com/features/copilot",
+      "description": "AI pair programmer providing code completions, suggestions, and generation directly in VS Code, JetBrains, Neovim, and Visual Studio.",
+      "category": "developer-tools",
+      "tags": [
+        "code-completion",
+        "ai-coding",
+        "ide",
+        "github",
+        "microsoft"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "copilot"
+    },
+    {
+      "name": "GitHub Copilot Chat",
+      "url": "https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat",
+      "description": "Conversational AI assistant inside IDEs for explaining code, generating tests, refactoring, debugging, and multi-file editing via natural language.",
+      "category": "developer-tools",
+      "tags": [
+        "chat",
+        "code-assistant",
+        "refactoring",
+        "debugging",
+        "vscode",
+        "microsoft"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "copilot"
+    },
+    {
+      "name": "Microsoft 365 Copilot",
+      "url": "https://www.microsoft.com/en-us/microsoft-365-copilot",
+      "description": "AI assistant across Word, Excel, PowerPoint, Outlook, and Teams. Generates documents, summarizes emails, creates presentations, and analyzes data.",
+      "category": "productivity",
+      "tags": [
+        "office",
+        "word",
+        "excel",
+        "powerpoint",
+        "outlook",
+        "teams",
+        "microsoft"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "copilot"
+    },
+    {
+      "name": "Microsoft Copilot (Web)",
+      "url": "https://copilot.microsoft.com",
+      "description": "Free web-based AI chat assistant (formerly Bing Chat) with web search, image generation, and multi-model support integrated into Microsoft Edge.",
+      "category": "search-web",
+      "tags": [
+        "chat",
+        "web-search",
+        "bing",
+        "image-generation",
+        "microsoft"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "copilot"
+    },
+    {
+      "name": "Copilot in Windows",
+      "url": "https://www.microsoft.com/en-us/windows/copilot-ai-features",
+      "description": "OS-level AI assistant built into Windows 11 for system settings, text summarization, image generation, and task automation from the desktop.",
+      "category": "platforms",
+      "tags": [
+        "windows",
+        "os",
+        "desktop",
+        "system-integration",
+        "microsoft"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "copilot"
+    },
+    {
+      "name": "Microsoft Copilot Studio",
+      "url": "https://www.microsoft.com/en-us/microsoft-365-copilot/microsoft-copilot-studio",
+      "description": "Low-code platform for building and deploying AI agents and copilot extensions. Supports multi-model selection with governance and enterprise controls.",
+      "category": "ai-ml",
+      "tags": [
+        "agents",
+        "low-code",
+        "customization",
+        "enterprise",
+        "power-platform",
+        "microsoft"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "copilot"
+    },
+    {
+      "name": "Copilot for Azure",
+      "url": "https://azure.microsoft.com/en-us/products/copilot",
+      "description": "AI assistant for Azure portal that helps with cloud resource management, troubleshooting, deployment, migration, and optimization.",
+      "category": "cloud",
+      "tags": [
+        "azure",
+        "cloud-management",
+        "devops",
+        "infrastructure",
+        "agents",
+        "microsoft"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "copilot"
+    },
+    {
+      "name": "Copilot for Power BI",
+      "url": "https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-introduction",
+      "description": "AI assistant within Power BI for natural language data analysis, DAX generation, report summarization, and automated dashboard insights.",
+      "category": "productivity",
+      "tags": [
+        "power-bi",
+        "data-analysis",
+        "dashboards",
+        "reports",
+        "business-intelligence",
+        "microsoft"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "copilot"
     }
   ]
 }

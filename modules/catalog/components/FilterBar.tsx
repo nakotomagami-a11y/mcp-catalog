@@ -14,8 +14,12 @@ interface FilterBarProps {
 
 const PLATFORMS: { id: Platform | "all"; label: string; icon: string }[] = [
   { id: "all", label: "All", icon: "*" },
-  { id: "mcp", label: "Claude MCP", icon: ">" },
+  { id: "mcp", label: "Claude", icon: ">" },
   { id: "chatgpt", label: "ChatGPT", icon: "#" },
+  { id: "qwen", label: "Qwen", icon: "Q" },
+  { id: "llama", label: "LLaMA", icon: "L" },
+  { id: "gemini", label: "Gemini", icon: "G" },
+  { id: "copilot", label: "Copilot", icon: "C" },
 ];
 
 export function FilterBar({

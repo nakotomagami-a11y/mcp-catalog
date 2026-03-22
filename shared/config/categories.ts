@@ -34,6 +34,7 @@ export const STATUS_OPTIONS = [
   { id: "beta", label: "Beta" },
   { id: "archived", label: "Archived" },
   { id: "deprecated", label: "Deprecated" },
+  { id: "coming-soon", label: "Coming Soon" },
 ];
 
 export const accentMap: Record<string, string> = Object.fromEntries(
@@ -52,4 +53,5 @@ export const STATUS_COLORS: Record<string, string> = {
   beta: "#ffd166",
   archived: "#71717a",
   deprecated: "#71717a",
+  "coming-soon": "#8338ec",
 };

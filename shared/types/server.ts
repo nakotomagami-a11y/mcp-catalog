@@ -1,4 +1,4 @@
-export type Platform = "mcp" | "chatgpt";
+export type Platform = "mcp" | "chatgpt" | "qwen" | "llama" | "gemini" | "copilot";
 
 export interface CatalogEntry {
   name: string;
@@ -7,7 +7,7 @@ export interface CatalogEntry {
   category: string;
   tags: string[];
   source: "official" | "official-integration" | "partner" | "community";
-  status: "live" | "beta" | "archived" | "deprecated";
+  status: "live" | "beta" | "archived" | "deprecated" | "coming-soon";
   platform: Platform;
 }
 

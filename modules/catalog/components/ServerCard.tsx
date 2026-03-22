@@ -15,8 +15,12 @@ const SOURCE_LABELS: Record<string, string> = {
 };
 
 const PLATFORM_LABELS: Record<string, string> = {
-  mcp: "MCP",
+  mcp: "Claude",
   chatgpt: "GPT",
+  qwen: "Qwen",
+  llama: "LLaMA",
+  gemini: "Gemini",
+  copilot: "Copilot",
 };
 
 export function ServerCard({ server, index }: ServerCardProps) {
