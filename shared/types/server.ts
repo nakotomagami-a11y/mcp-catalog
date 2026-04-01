@@ -9,6 +9,7 @@ export interface CatalogEntry {
   source: "official" | "official-integration" | "partner" | "community";
   status: "live" | "beta" | "archived" | "deprecated" | "coming-soon";
   platform: Platform;
+  isNew?: boolean;
 }
 
 export interface Category {

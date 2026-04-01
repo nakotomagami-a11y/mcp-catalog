@@ -6220,7 +6220,7 @@
     {
       "name": "Bright Data MCP",
       "url": "https://github.com/brightdata/brightdata-mcp",
-      "description": "All-in-one MCP server for public web access — scraping, search, and structured data extraction at scale.",
+      "description": "All-in-one MCP server for public web access ï¿½ scraping, search, and structured data extraction at scale.",
       "category": "search-web",
       "tags": [
         "web-scraping",
@@ -6294,7 +6294,7 @@
     {
       "name": "Unipile MCP",
       "url": "https://github.com/",
-      "description": "Unified API MCP server for LinkedIn, WhatsApp, Email, and Calendar — multi-channel communication through one interface.",
+      "description": "Unified API MCP server for LinkedIn, WhatsApp, Email, and Calendar ï¿½ multi-channel communication through one interface.",
       "category": "communication",
       "tags": [
         "linkedin",
@@ -6309,7 +6309,7 @@
     {
       "name": "Blynk IoT MCP",
       "url": "https://github.com/",
-      "description": "MCP server for Blynk IoT platform — control and monitor IoT devices through AI agents.",
+      "description": "MCP server for Blynk IoT platform ï¿½ control and monitor IoT devices through AI agents.",
       "category": "science",
       "tags": [
         "iot",
@@ -6414,7 +6414,7 @@
     {
       "name": "OpenBB MCP",
       "url": "https://github.com/OpenBB-finance/OpenBB",
-      "description": "MCP server exposing OpenBB's 600+ financial data commands — equity, crypto, forex, macro, and options data for AI agents.",
+      "description": "MCP server exposing OpenBB's 600+ financial data commands ï¿½ equity, crypto, forex, macro, and options data for AI agents.",
       "category": "finance",
       "tags": [
         "finance",
@@ -6473,6 +6473,247 @@
       "source": "community",
       "status": "live",
       "platform": "mcp"
+    },
+    {
+      "name": "OpenAI Codex MCP",
+      "url": "https://github.com/openai/codex-mcp-plugin",
+      "description": "OpenAI's Codex coding agent as an MCP plugin with parallel sandboxed execution, deep GitHub integration, and automatic PR creation.",
+      "category": "developer-tools",
+      "tags": [
+        "coding",
+        "openai",
+        "agent",
+        "github"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "mcp",
+      "isNew": true
+    },
+    {
+      "name": "Serena",
+      "url": "https://github.com/oramasearch/serena",
+      "description": "Development automation platform that understands your codebase structure and helps AI agents navigate, search, and modify code effectively.",
+      "category": "developer-tools",
+      "tags": [
+        "codebase",
+        "automation",
+        "navigation"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp",
+      "isNew": true
+    },
+    {
+      "name": "Exa Search",
+      "url": "https://github.com/exa-labs/exa-mcp-server",
+      "description": "Neural search API that finds semantically relevant web content. Returns clean, LLM-ready text from the most relevant pages on the internet.",
+      "category": "search-web",
+      "tags": [
+        "search",
+        "neural",
+        "semantic"
+      ],
+      "source": "partner",
+      "status": "live",
+      "platform": "mcp",
+      "isNew": true
+    },
+    {
+      "name": "Tavily Search",
+      "url": "https://github.com/tavily-ai/tavily-mcp",
+      "description": "AI-optimized search engine returning relevant, factual results. Purpose-built for LLM applications with structured, citation-rich responses.",
+      "category": "search-web",
+      "tags": [
+        "search",
+        "research",
+        "citations"
+      ],
+      "source": "partner",
+      "status": "live",
+      "platform": "mcp",
+      "isNew": true
+    },
+    {
+      "name": "Google Sheets MCP",
+      "url": "https://github.com/nicholasgriffintn/google-sheets-mcp",
+      "description": "Read, write, and manipulate Google Sheets spreadsheets through MCP. Supports formulas, formatting, and bulk data operations.",
+      "category": "productivity",
+      "tags": [
+        "spreadsheet",
+        "google",
+        "data"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp",
+      "isNew": true
+    },
+    {
+      "name": "WordPress MCP",
+      "url": "https://github.com/developer-jehan/wordpress-mcp",
+      "description": "Manage WordPress sites through MCP. Create and edit posts, manage media, handle plugins, and interact with the WordPress REST API.",
+      "category": "platforms",
+      "tags": [
+        "wordpress",
+        "cms",
+        "content"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp",
+      "isNew": true
+    },
+    {
+      "name": "Minecraft MCP",
+      "url": "https://github.com/yuniko-software/minecraft-mcp-server",
+      "description": "Control a Minecraft character in real-time via Mineflayer API. Build structures, explore the world, and interact through natural language.",
+      "category": "creative",
+      "tags": [
+        "minecraft",
+        "game",
+        "automation"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp",
+      "isNew": true
+    },
+    {
+      "name": "MCPJungle",
+      "url": "https://github.com/mcpjungle/mcpjungle",
+      "description": "Self-hosted MCP server registry for enterprise AI agents. Manage, discover, and route between multiple MCP servers with centralized auth.",
+      "category": "registries",
+      "tags": [
+        "registry",
+        "enterprise",
+        "self-hosted"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp",
+      "isNew": true
+    },
+    {
+      "name": "Agentset",
+      "url": "https://agentset.ai/",
+      "description": "RAG-as-a-service MCP server for building AI knowledge bases. Upload documents and get instant retrieval-augmented generation.",
+      "category": "ai-ml",
+      "tags": [
+        "rag",
+        "knowledge-base",
+        "documents"
+      ],
+      "source": "partner",
+      "status": "live",
+      "platform": "mcp",
+      "isNew": true
+    },
+    {
+      "name": "Atlan MCP",
+      "url": "https://github.com/atlanhq/atlan-mcp",
+      "description": "Data catalog and governance platform. Access metadata, lineage, and documentation for your data assets through natural language.",
+      "category": "databases",
+      "tags": [
+        "data-catalog",
+        "governance",
+        "metadata"
+      ],
+      "source": "partner",
+      "status": "live",
+      "platform": "mcp",
+      "isNew": true
+    },
+    {
+      "name": "Adfin",
+      "url": "https://github.com/adfin-dev/adfin-mcp",
+      "description": "All-in-one payment platform MCP server with invoicing, accounting, and payment collection capabilities for AI agents.",
+      "category": "finance",
+      "tags": [
+        "payments",
+        "invoicing",
+        "accounting"
+      ],
+      "source": "partner",
+      "status": "live",
+      "platform": "mcp",
+      "isNew": true
+    },
+    {
+      "name": "Antom (Ant Group)",
+      "url": "https://github.com/nicholasgriffintn/antom-mcp",
+      "description": "Connect AI agents to Antom checkout payments by Ant Group. Process international payments and manage transactions.",
+      "category": "finance",
+      "tags": [
+        "payments",
+        "checkout",
+        "international"
+      ],
+      "source": "partner",
+      "status": "live",
+      "platform": "mcp",
+      "isNew": true
+    },
+    {
+      "name": "BICScan",
+      "url": "https://github.com/nicholasgriffintn/bicscan-mcp",
+      "description": "Blockchain risk scoring and analysis. Check wallet addresses for risk scores, asset holdings, and transaction patterns.",
+      "category": "finance",
+      "tags": [
+        "blockchain",
+        "risk-scoring",
+        "crypto"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp",
+      "isNew": true
+    },
+    {
+      "name": "Toolradar MCP",
+      "url": "https://toolradar.com/",
+      "description": "MCP server directory and comparison platform. Discover, evaluate, and deploy the right MCP servers for your workflow.",
+      "category": "registries",
+      "tags": [
+        "directory",
+        "comparison",
+        "discovery"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp",
+      "isNew": true
+    },
+    {
+      "name": "MCP Manager",
+      "url": "https://mcpmanager.ai/",
+      "description": "Desktop application for managing MCP server installations, configurations, and updates across multiple AI clients.",
+      "category": "developer-tools",
+      "tags": [
+        "management",
+        "desktop-app",
+        "configuration"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp",
+      "isNew": true
+    },
+    {
+      "name": "Raygun MCP",
+      "url": "https://github.com/nicholasgriffintn/raygun-mcp",
+      "description": "Error monitoring and crash reporting through MCP. Query application errors, performance data, and user session replays.",
+      "category": "developer-tools",
+      "tags": [
+        "error-monitoring",
+        "crash-reporting",
+        "performance"
+      ],
+      "source": "partner",
+      "status": "live",
+      "platform": "mcp",
+      "isNew": true
     }
   ]
 }

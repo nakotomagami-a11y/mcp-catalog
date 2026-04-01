@@ -49,6 +49,7 @@ export function ServerCard({ server, index }: ServerCardProps) {
           <span className={`platform-pill platform-${server.platform}`}>
             {PLATFORM_LABELS[server.platform]}
           </span>
+          {server.isNew && <span className="badge badge-new">New</span>}
           <span className="card-name">{server.name}</span>
         </div>
         <div className="card-badges">

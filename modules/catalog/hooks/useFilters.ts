@@ -9,7 +9,7 @@ export function useFilters(entries: CatalogEntry[]) {
   const [searchQuery, setSearchQuery] = useState("");
 
   const filtered = useMemo(() => {
-    return entries.filter((e) => {
+    const result = entries.filter((e) => {
       if (activePlatform !== "all" && e.platform !== activePlatform) return false;
       if (activeCategory !== "all" && e.category !== activeCategory) return false;
       if (activeSource !== "all" && e.source !== activeSource) return false;
@@ -22,6 +22,8 @@ export function useFilters(entries: CatalogEntry[]) {
       }
       return true;
     });
+    // Sort: new items first, then preserve original order
+    return result.sort((a, b) => (b.isNew ? 1 : 0) - (a.isNew ? 1 : 0));
   }, [entries, activePlatform, activeCategory, activeSource, activeStatus, searchQuery]);
 
   return {

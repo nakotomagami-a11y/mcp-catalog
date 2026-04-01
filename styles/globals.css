@@ -457,6 +457,21 @@ body::after {
   color: var(--badge-color);
 }
 
+.badge-new {
+  background: rgba(236,72,153,0.2);
+  color: #ec4899;
+  font-size: 0.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  flex-shrink: 0;
+  animation: newPulse 2s ease-in-out infinite;
+}
+@keyframes newPulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
 .card-desc {
   font-size: 0.85rem;
   color: var(--text-muted);
