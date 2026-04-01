@@ -6714,6 +6714,172 @@
       "status": "live",
       "platform": "mcp",
       "isNew": true
+    },
+    {
+      "name": "PlanetScale MCP",
+      "url": "https://github.com/planetscale/mcp-server",
+      "description": "Official PlanetScale MCP server with OAuth authentication for interacting with MySQL databases, branches, and deploy requests.",
+      "category": "databases",
+      "tags": [
+        "mysql",
+        "database",
+        "branching"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "mcp",
+      "isNew": true
+    },
+    {
+      "name": "Turso MCP",
+      "url": "https://github.com/nbbaier/mcp-turso",
+      "description": "MCP server for interacting with Turso-hosted LibSQL databases. Turso also supports MCP directly via their CLI with a --mcp flag.",
+      "category": "databases",
+      "tags": [
+        "libsql",
+        "sqlite",
+        "database"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp",
+      "isNew": true
+    },
+    {
+      "name": "Railway MCP",
+      "url": "https://github.com/railwayapp/railway-mcp-server",
+      "description": "Official Railway MCP server for managing deployments, services, and infrastructure from AI assistants.",
+      "category": "cloud",
+      "tags": [
+        "deployment",
+        "infrastructure",
+        "paas"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "mcp",
+      "isNew": true
+    },
+    {
+      "name": "Weaviate MCP",
+      "url": "https://github.com/weaviate/mcp-server-weaviate",
+      "description": "Official Weaviate vector database MCP server for semantic search, document storage, and retrieval from AI development environments.",
+      "category": "ai-ml",
+      "tags": [
+        "vector-database",
+        "semantic-search",
+        "embeddings"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "mcp",
+      "isNew": true
+    },
+    {
+      "name": "DeepWiki MCP",
+      "url": "https://github.com/purrfessor/deepwiki-open-mcp",
+      "description": "AI-powered codebase context server by Devin. Generates wiki documentation for GitHub/GitLab/Bitbucket repositories automatically.",
+      "category": "developer-tools",
+      "tags": [
+        "documentation",
+        "codebase-analysis",
+        "wiki"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp",
+      "isNew": true
+    },
+    {
+      "name": "Google Colab MCP",
+      "url": "https://github.com/nicholasgriffintn/google-colab-mcp",
+      "description": "Official Google Colab MCP server that lets any AI agent access and control Colab notebooks for data science and ML workflows.",
+      "category": "ai-ml",
+      "tags": [
+        "notebooks",
+        "colab",
+        "google",
+        "data-science"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "mcp",
+      "isNew": true
+    },
+    {
+      "name": "Home Assistant MCP",
+      "url": "https://www.home-assistant.io/integrations/mcp_server/",
+      "description": "MCP integration for Home Assistant enabling AI assistants to control smart home devices, lights, sensors, and automations via natural language.",
+      "category": "developer-tools",
+      "tags": [
+        "smart-home",
+        "automation",
+        "iot"
+      ],
+      "source": "official-integration",
+      "status": "live",
+      "platform": "mcp",
+      "isNew": true
+    },
+    {
+      "name": "Browserbase MCP",
+      "url": "https://github.com/browserbase/mcp-server-browserbase",
+      "description": "Cloud browser automation MCP server using Browserbase and Stagehand, enabling LLMs to interact with web pages and perform automated browser actions.",
+      "category": "developer-tools",
+      "tags": [
+        "browser-automation",
+        "cloud",
+        "web-interaction"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "mcp",
+      "isNew": true
+    },
+    {
+      "name": "Dynatrace (Gemini)",
+      "url": "https://geminicli.com/extensions/",
+      "description": "Gemini CLI extension providing real-time application performance monitoring, availability insights, and root-cause analysis from the terminal.",
+      "category": "cloud",
+      "tags": [
+        "apm",
+        "monitoring",
+        "observability"
+      ],
+      "source": "partner",
+      "status": "live",
+      "platform": "gemini",
+      "isNew": true
+    },
+    {
+      "name": "Harness (Gemini)",
+      "url": "https://geminicli.com/extensions/",
+      "description": "Gemini CLI extension for Harness CI/CD platform, enabling pipeline management and deployment operations from the AI-powered command line.",
+      "category": "developer-tools",
+      "tags": [
+        "cicd",
+        "deployment",
+        "pipelines"
+      ],
+      "source": "partner",
+      "status": "live",
+      "platform": "gemini",
+      "isNew": true
+    },
+    {
+      "name": "LaunchDarkly (Copilot)",
+      "url": "https://github.com/marketplace?type=apps&copilot_app=true",
+      "description": "GitHub Copilot extension integrating LaunchDarkly feature flag management directly in the coding environment with documentation access.",
+      "category": "developer-tools",
+      "tags": [
+        "feature-flags",
+        "deployment",
+        "experimentation"
+      ],
+      "source": "partner",
+      "status": "live",
+      "platform": "copilot",
+      "isNew": true
     }
   ]
 }
