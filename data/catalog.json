@@ -6880,6 +6880,22 @@
       "status": "live",
       "platform": "copilot",
       "isNew": true
+    },
+    {
+      "name": "Toprank",
+      "url": "https://github.com/nowork-studio/toprank",
+      "description": "Open-source Claude Code plugin for SEO, Google Ads, content writing, and CMS optimization workflows.",
+      "category": "writing-content",
+      "tags": [
+        "seo",
+        "google-ads",
+        "content-writing",
+        "cms",
+        "claude-code"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
     }
   ]
 }
