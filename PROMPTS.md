@@ -76,6 +76,68 @@ Previous searches (use different queries to cover new ground):
 **Servers re-categorized to Security:** Ghidra MCP, OWASP ZAP MCP, Snyk MCP, Trivy MCP, Semgrep MCP, SonarQube MCP, MCP Security Hub
 **Servers re-categorized to Finance:** Alpaca, AlphaVantage, Armor Crypto MCP, Bankless Onchain
 
+**2026-05-19:**
+- "new MCP server model context protocol April May 2026 github release"
+- "awesome-mcp-servers punkpeye new additions April 2026"
+- "MCP server npm package 'mcp-server' published 2026 new integration"
+- "site:github.com mcp-server 2026 new tool integration database cloud"
+- "microsoft MCP server catalog official 2026 Azure Fabric"
+- "new MCP server Hacker News Product Hunt launch April May 2026"
+- "pulsemcp.com new MCP servers 2026 recently added"
+- "MCP server Anthropic Claude integration 2026 enterprise tools new"
+- "Supabase MCP server official github 2026" (already in catalog)
+- "Microsoft Fabric MCP server Real-Time Intelligence github 2026"
+- "MCP server Vercel Linear HubSpot Salesforce official 2026 github"
+- "new MCP servers glama.ai mcp.so trending April May 2026"
+- "Salesforce MCP server official github 'salesforcecli/mcp'"
+- "HubSpot official MCP server 'developers.hubspot.com/mcp' github integration"
+- "MCP server Linear official github 'linear-app' 2025 2026" (already in catalog)
+- "Vercel MCP server official github vercel.com 2026" (already in catalog)
+- "MCP server Neon database official github 2025 2026" (already in catalog)
+- "MCP server 'evmcp' OR 'evm blockchain' OR 'web3 ethereum' github 2026"
+- "MCP server Trends 'Google Trends' OR 'pulsemcp trends' official github 2026"
+- "MCP server World Cup 2026 FIFA sports data github"
+- "MCP server 'Testplane' OR 'BrowserStack' OR 'Playwright testing' 2026 github"
+- "BrowserStack MCP server official github 2026 testing" (already in catalog)
+- "MCP server 'Next.js devtools' OR 'nextjs mcp' vercel github 2026"
+- "MCP server 'Oracle NetSuite' OR 'Sage Intacct' OR 'SAP' enterprise official github 2026"
+- "MCP server 'Anthropic semantic network' OR 'knowledge graph' OR 'AWS Bedrock Knowledge' official 2026"
+- "MCP server SAP 'SAP BDC' OR 'SAP Business Data Cloud' github 2026"
+- "Conductor MCP server Orkes workflow orchestration github 2026"
+- "MCP server 'Balldontlie' sports data NBA NFL official github 2026"
+- "MCP server 'Cloudflare' official 'workers' OR 'KV' OR 'D1' github 2025 2026" (already in catalog)
+- "MCP server 'Stripe' OR 'payment' official github new 2026" (already in catalog)
+- "MCP server 'Godot' OR 'Unity' OR 'Unreal' game engine new 2026 github"
+- "MCP server 'education' OR 'tutoring' OR 'LMS' OR 'Khan Academy' 2026 github"
+- "EduBase MCP server github e-learning education 2026"
+- "MCP server 'Microsoft Learn' OR 'MicrosoftDocs' official github 2026"
+- "MCP server 'writing' OR 'content creation' OR 'WordPress' OR 'Ghost CMS' github 2026 new"
+- "MCP server 'Tableau' OR 'Power BI' OR 'data visualization' OR 'Grafana' github 2026"
+- "Grafana MCP server official github 'grafana/mcp-grafana' 2026" (already in catalog)
+- "Tableau official MCP server 'tableau/tableau-mcp' github launch 2026"
+- "Power BI MCP server official 'microsoft/powerbi-modeling-mcp' github 2026"
+
+**Servers added (17):**
+- Microsoft Fabric MCP (cloud) — official MS catalog for Azure/Fabric 260+ tools
+- Microsoft Fabric RTI MCP (cloud) — Fabric Real-Time Intelligence / KQL / Eventhouse
+- Salesforce DX MCP (platforms) — official Salesforce CLI MCP for orgs/Apex/SOQL
+- HubSpot MCP Server (platforms) — official HubSpot CRM read/write access
+- Trends MCP (search-web) — live trend data from Google, YouTube, TikTok, Reddit, 12+ sources
+- Next.js DevTools MCP (developer-tools) — official Vercel MCP for Next.js 16+ dev agents
+- EVM MCP Server (finance) — 60+ EVM chains, ENS, contract interactions, token transfers
+- Web3 MCP (finance) — multi-chain MCP (Ethereum, Solana, Bitcoin, XRP, Cardano, etc.)
+- Conductor MCP (ai-ml) — Orkes Conductor workflow orchestration MCP
+- BALLDONTLIE MCP (science) — official sports API for NBA/NFL/MLB/EPL/NHL/FIFA World Cup
+- World Cup 2026 MCP (science) — FIFA World Cup 2026 AI companion with 18 tools
+- SAP BDC MCP Server (cloud) — SAP Business Data Cloud Delta Sharing & data products
+- Tableau MCP (developer-tools) — official Tableau Cloud/Server data source access
+- Power BI Modeling MCP (developer-tools) — official Microsoft Power BI semantic modeling
+- Ghost MCP (writing) — Ghost CMS blog management (posts, members, newsletters, tiers)
+- EduBase MCP (education) — official EduBase e-learning platform integration
+- Microsoft Learn MCP (education) — official Microsoft docs + code samples, no auth required
+
+**Categories with most new entries:** Cloud & Infra (+3), Developer Tools (+3), Finance & Trading (+2), Science & IoT (+2), Education (+2), Platforms (+2)
+
 ---
 
 ## Tags Index
