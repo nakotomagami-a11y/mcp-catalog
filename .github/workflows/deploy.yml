@@ -2,7 +2,7 @@ name: Deploy to arturas.digital
 
 on:
   push:
-    branches: [main]
+    branches: [master, main]
 
 concurrency:
   group: deploy-mcp-catalog
