@@ -1,0 +1,63 @@
+name: Deploy to arturas.digital
+
+on:
+  push:
+    branches: [main]
+
+concurrency:
+  group: deploy-mcp-catalog
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build
+        run: npm run build
+
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: static-build-${{ github.sha }}
+          path: out/
+          retention-days: 7
+          if-no-files-found: error
+
+  deploy:
+    name: Deploy
+    needs: build
+    runs-on: [self-hosted, ravenhut]
+    timeout-minutes: 5
+    environment:
+      name: production
+      url: https://arturas.digital/lab/mcp-catalog/
+    steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: static-build-${{ github.sha }}
+          path: /tmp/deploy-mcp-${{ github.run_id }}
+
+      - name: Sync to live
+        run: |
+          rsync -a --delete --checksum \
+            /tmp/deploy-mcp-${{ github.run_id }}/ \
+            /srv/sites/arturas.digital/lab/mcp-catalog/
+
+      - name: Cleanup
+        if: always()
+        run: rm -rf /tmp/deploy-mcp-${{ github.run_id }}
