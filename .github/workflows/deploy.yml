@@ -53,6 +53,7 @@ jobs:
 
       - name: Sync to live
         run: |
+          mkdir -p /srv/sites/arturas.digital/lab/mcp-catalog
           rsync -a --delete --checksum \
             /tmp/deploy-mcp-${{ github.run_id }}/ \
             /srv/sites/arturas.digital/lab/mcp-catalog/
