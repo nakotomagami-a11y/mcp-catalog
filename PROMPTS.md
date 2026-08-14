@@ -31,7 +31,7 @@ Read data/catalog.json to get the current list of MCP servers. Also read data/bl
 For each new server found, add it to the "entries" array in data/catalog.json following the exact existing format:
 - name, url, description (1-2 sentences), category, tags (3-4), source ("official"|"community"), status ("live"|"beta"|"experimental"), platform ("mcp")
 
-After updating catalog.json, open the site in the browser to verify the changes render correctly.
+After updating catalog.json, confirm the file is still valid JSON (`jq . data/catalog.json`). It is consumed live by arturas.digital straight from the master branch.
 ```
 
 ---
@@ -49,7 +49,7 @@ Read data/catalog.json to get the current list of MCP servers. Then audit EVERY 
 6. **Duplicate entries**: Same server listed under different names or URLs → REMOVE the duplicate, keep the better entry
 7. **Category mismatch**: Server better fits a different category now → UPDATE category
 
-For each change made, briefly note what changed and why. After updating catalog.json, open the site in the browser to verify nothing is broken.
+For each change made, briefly note what changed and why. After updating catalog.json, confirm the file is still valid JSON (`jq . data/catalog.json`).
 ```
 
 ---
