@@ -534,20 +534,6 @@
       "platform": "mcp"
     },
     {
-      "name": "SQLite",
-      "url": "https://github.com/modelcontextprotocol/servers-archived",
-      "description": "SQLite database operations with built-in analysis features.",
-      "category": "databases",
-      "tags": [
-        "sqlite",
-        "embedded",
-        "sql"
-      ],
-      "source": "official",
-      "status": "archived",
-      "platform": "mcp"
-    },
-    {
       "name": "Astra DB (DataStax)",
       "url": "https://github.com/datastax/astra-db-mcp",
       "description": "Comprehensive tools for managing collections and documents in Astra DB.",
@@ -2195,20 +2181,6 @@
       "platform": "mcp"
     },
     {
-      "name": "Puppeteer",
-      "url": "https://github.com/modelcontextprotocol/servers-archived",
-      "description": "Browser automation for web interaction, screenshots, and JS execution.",
-      "category": "search-web",
-      "tags": [
-        "browser",
-        "automation",
-        "screenshots"
-      ],
-      "source": "official",
-      "status": "archived",
-      "platform": "mcp"
-    },
-    {
       "name": "AgentQL",
       "url": "https://github.com/tinyfish-io/agentql-mcp",
       "description": "Get structured data from unstructured web pages for AI agents.",
@@ -2683,62 +2655,6 @@
       ],
       "source": "official-integration",
       "status": "live",
-      "platform": "mcp"
-    },
-    {
-      "name": "Google Drive",
-      "url": "https://github.com/modelcontextprotocol/servers-archived",
-      "description": "Google Drive integration for file access, search, and management.",
-      "category": "cloud",
-      "tags": [
-        "google-drive",
-        "files",
-        "cloud-storage"
-      ],
-      "source": "official",
-      "status": "archived",
-      "platform": "mcp"
-    },
-    {
-      "name": "Google Maps",
-      "url": "https://github.com/modelcontextprotocol/servers-archived",
-      "description": "Google Maps integration for geocoding, directions, and places.",
-      "category": "search-web",
-      "tags": [
-        "maps",
-        "geocoding",
-        "directions"
-      ],
-      "source": "official",
-      "status": "archived",
-      "platform": "mcp"
-    },
-    {
-      "name": "EverArt",
-      "url": "https://github.com/modelcontextprotocol/servers-archived",
-      "description": "AI art generation integration for creative workflows.",
-      "category": "creative",
-      "tags": [
-        "art",
-        "generation",
-        "ai-art"
-      ],
-      "source": "official",
-      "status": "archived",
-      "platform": "mcp"
-    },
-    {
-      "name": "AWS KB Retrieval",
-      "url": "https://github.com/modelcontextprotocol/servers-archived",
-      "description": "AWS Knowledge Base retrieval for RAG applications.",
-      "category": "cloud",
-      "tags": [
-        "aws",
-        "knowledge-base",
-        "rag"
-      ],
-      "source": "official",
-      "status": "archived",
       "platform": "mcp"
     },
     {
@@ -3898,201 +3814,6 @@
       "platform": "chatgpt"
     },
     {
-      "name": "Wolfram Plugin (Legacy)",
-      "description": "Original ChatGPT plugin providing Wolfram Alpha computation and knowledge. Deprecated April 2024, succeeded by Wolfram GPT.",
-      "category": "science",
-      "url": "https://writings.stephenwolfram.com/2023/03/chatgpt-gets-its-wolfram-superpowers/",
-      "source": "partner",
-      "status": "deprecated",
-      "tags": [
-        "wolfram",
-        "math",
-        "legacy-plugin",
-        "computation"
-      ],
-      "platform": "chatgpt"
-    },
-    {
-      "name": "Expedia Plugin (Legacy)",
-      "description": "Original ChatGPT plugin for searching flights, hotels, and travel plans. Deprecated April 2024.",
-      "category": "commerce",
-      "url": "https://openai.com/index/chatgpt-plugins/",
-      "source": "partner",
-      "status": "deprecated",
-      "tags": [
-        "travel",
-        "flights",
-        "hotels",
-        "legacy-plugin"
-      ],
-      "platform": "chatgpt"
-    },
-    {
-      "name": "KAYAK Plugin (Legacy)",
-      "description": "Original ChatGPT plugin for finding flights, stays, and rental cars. Deprecated April 2024.",
-      "category": "commerce",
-      "url": "https://openai.com/index/chatgpt-plugins/",
-      "source": "partner",
-      "status": "deprecated",
-      "tags": [
-        "travel",
-        "flights",
-        "hotels",
-        "legacy-plugin"
-      ],
-      "platform": "chatgpt"
-    },
-    {
-      "name": "Instacart Plugin (Legacy)",
-      "description": "Original ChatGPT plugin for ordering groceries from local stores with delivery. Deprecated April 2024.",
-      "category": "commerce",
-      "url": "https://openai.com/index/chatgpt-plugins/",
-      "source": "partner",
-      "status": "deprecated",
-      "tags": [
-        "grocery",
-        "delivery",
-        "shopping",
-        "legacy-plugin"
-      ],
-      "platform": "chatgpt"
-    },
-    {
-      "name": "Klarna Plugin (Legacy)",
-      "description": "Original ChatGPT plugin for product search and price comparison across online retailers. Deprecated April 2024.",
-      "category": "commerce",
-      "url": "https://openai.com/index/chatgpt-plugins/",
-      "source": "partner",
-      "status": "deprecated",
-      "tags": [
-        "shopping",
-        "price-comparison",
-        "ecommerce",
-        "legacy-plugin"
-      ],
-      "platform": "chatgpt"
-    },
-    {
-      "name": "OpenTable Plugin (Legacy)",
-      "description": "Original ChatGPT plugin for searching and booking restaurant reservations. Deprecated April 2024.",
-      "category": "commerce",
-      "url": "https://openai.com/index/chatgpt-plugins/",
-      "source": "partner",
-      "status": "deprecated",
-      "tags": [
-        "restaurants",
-        "reservations",
-        "dining",
-        "legacy-plugin"
-      ],
-      "platform": "chatgpt"
-    },
-    {
-      "name": "Speak Plugin (Legacy)",
-      "description": "AI-powered language tutor plugin for learning new languages and pronunciation. Deprecated April 2024.",
-      "category": "education",
-      "url": "https://openai.com/index/chatgpt-plugins/",
-      "source": "partner",
-      "status": "deprecated",
-      "tags": [
-        "language-learning",
-        "tutor",
-        "translation",
-        "legacy-plugin"
-      ],
-      "platform": "chatgpt"
-    },
-    {
-      "name": "Zapier Plugin (Legacy)",
-      "description": "Original ChatGPT plugin connecting to 5,000+ apps for workflow automation. Deprecated April 2024, succeeded by Zapier AI Actions.",
-      "category": "platforms",
-      "url": "https://help.zapier.com/hc/en-us/articles/24785309335565",
-      "source": "partner",
-      "status": "deprecated",
-      "tags": [
-        "zapier",
-        "automation",
-        "workflows",
-        "legacy-plugin"
-      ],
-      "platform": "chatgpt"
-    },
-    {
-      "name": "Slack Plugin (Legacy)",
-      "description": "Original ChatGPT plugin for Slack workspace integration. Deprecated April 2024, succeeded by Slack connector.",
-      "category": "communication",
-      "url": "https://openai.com/index/chatgpt-plugins/",
-      "source": "partner",
-      "status": "deprecated",
-      "tags": [
-        "slack",
-        "messaging",
-        "workspace",
-        "legacy-plugin"
-      ],
-      "platform": "chatgpt"
-    },
-    {
-      "name": "FiscalNote Plugin (Legacy)",
-      "description": "Original ChatGPT plugin for accessing legal, political, and regulatory data. Deprecated April 2024.",
-      "category": "science",
-      "url": "https://openai.com/index/chatgpt-plugins/",
-      "source": "partner",
-      "status": "deprecated",
-      "tags": [
-        "legal",
-        "regulatory",
-        "policy",
-        "legacy-plugin"
-      ],
-      "platform": "chatgpt"
-    },
-    {
-      "name": "Shopify Plugin (Legacy)",
-      "description": "Original ChatGPT plugin for Shopify store product search and recommendations. Deprecated April 2024.",
-      "category": "commerce",
-      "url": "https://openai.com/index/chatgpt-plugins/",
-      "source": "partner",
-      "status": "deprecated",
-      "tags": [
-        "shopify",
-        "ecommerce",
-        "products",
-        "legacy-plugin"
-      ],
-      "platform": "chatgpt"
-    },
-    {
-      "name": "WebPilot Plugin (Legacy)",
-      "description": "Plugin providing internet access for real-time web browsing and information retrieval. Deprecated April 2024.",
-      "category": "search-web",
-      "url": "https://www.godofprompt.ai/blog/best-chatgpt-plugins-ultimate-list-for-2023",
-      "source": "community",
-      "status": "deprecated",
-      "tags": [
-        "web-browsing",
-        "search",
-        "real-time",
-        "legacy-plugin"
-      ],
-      "platform": "chatgpt"
-    },
-    {
-      "name": "Milo Plugin (Legacy)",
-      "description": "AI co-parent assistant plugin for family scheduling and parenting support. Deprecated April 2024.",
-      "category": "productivity",
-      "url": "https://openai.com/index/chatgpt-plugins/",
-      "source": "partner",
-      "status": "deprecated",
-      "tags": [
-        "parenting",
-        "family",
-        "scheduling",
-        "legacy-plugin"
-      ],
-      "platform": "chatgpt"
-    },
-    {
       "name": "Search Query Analyzer GPT",
       "description": "Analyzes Google search results for content optimization and understanding user search intent for SEO.",
       "category": "search-web",
@@ -4539,21 +4260,6 @@
         "mobile",
         "voice",
         "camera"
-      ],
-      "platform": "chatgpt"
-    },
-    {
-      "name": "GetYourGuide Plugin (Legacy)",
-      "description": "Plugin for discovering and booking tours, activities, and experiences worldwide. Deprecated April 2024.",
-      "category": "commerce",
-      "url": "https://openai.com/index/chatgpt-plugins/",
-      "source": "partner",
-      "status": "deprecated",
-      "tags": [
-        "travel",
-        "tours",
-        "experiences",
-        "legacy-plugin"
       ],
       "platform": "chatgpt"
     },
@@ -6309,7 +6015,7 @@
     {
       "name": "NCP (MCP Orchestration)",
       "url": "https://github.com/portel-dev/ncp",
-      "description": "Natural Context Provider — MCP orchestration server that coordinates multiple MCP servers with RAG-powered tool discovery and intelligent routing.",
+      "description": "Natural Context Provider \u2014 MCP orchestration server that coordinates multiple MCP servers with RAG-powered tool discovery and intelligent routing.",
       "category": "developer-tools",
       "tags": [
         "orchestration",
@@ -7028,7 +6734,7 @@
         "bi"
       ],
       "source": "official",
-      "status": "beta",
+      "status": "live",
       "platform": "mcp"
     },
     {
@@ -7086,6 +6792,266 @@
         "documentation",
         "learning",
         "azure"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Cypress Cloud MCP",
+      "url": "https://mcp.cypress.io/mcp",
+      "description": "Official Cypress Cloud MCP server giving AI coding assistants real-time access to test run results, flaky test detection, failure details, and Test Replay links. GA since May 2026, included on all Cypress Cloud plans.",
+      "category": "developer-tools",
+      "tags": [
+        "cypress",
+        "testing",
+        "ci-cd",
+        "e2e",
+        "test-results",
+        "accessibility"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "SmartBear MCP",
+      "url": "https://github.com/SmartBear/smartbear-mcp",
+      "description": "Official SmartBear MCP server providing AI assistants access to the full SmartBear testing toolchain, including BugSnag, Reflect, Swagger/OpenAPI, PactFlow, Zephyr, QMetry, and Collaborator.",
+      "category": "developer-tools",
+      "tags": [
+        "smartbear",
+        "testing",
+        "api",
+        "swagger",
+        "openapi",
+        "bugsnag",
+        "zephyr"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "DebugBear MCP",
+      "url": "https://www.debugbear.com/mcp",
+      "description": "Official DebugBear MCP server for web performance monitoring \u2014 create projects, configure page monitoring, run Lighthouse-based performance tests, and fetch real-user metrics directly from AI assistants.",
+      "category": "developer-tools",
+      "tags": [
+        "performance",
+        "monitoring",
+        "lighthouse",
+        "web-vitals",
+        "debugbear"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "MCP SSH Manager",
+      "url": "https://github.com/bvisible/mcp-ssh-manager",
+      "description": "37-tool MCP server for remote SSH management, enabling Claude Code and OpenAI Codex to execute commands, transfer files, manage databases, create backups, and monitor health across multiple servers.",
+      "category": "developer-tools",
+      "tags": [
+        "ssh",
+        "devops",
+        "remote",
+        "automation",
+        "database",
+        "backup",
+        "monitoring"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "SAP MDK MCP Server",
+      "url": "https://github.com/SAP/mdk-mcp-server",
+      "description": "Official SAP MCP server for AI-assisted (vibe coding) development of MDK (Mobile Development Kit) applications on SAP BTP.",
+      "category": "developer-tools",
+      "tags": [
+        "sap",
+        "mdk",
+        "mobile",
+        "btp",
+        "enterprise",
+        "low-code"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "SAP ABAP ADT MCP",
+      "url": "https://github.com/fr0ster/mcp-abap-adt",
+      "description": "MCP server for SAP BTP ABAP Cloud and on-premise ECC/S4HANA systems, providing full CRUD access to ABAP repositories via ADT with JWT/XSUAA and service-key authentication.",
+      "category": "developer-tools",
+      "tags": [
+        "sap",
+        "abap",
+        "s4hana",
+        "btp",
+        "enterprise",
+        "adt"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Quackr MCP",
+      "url": "https://quackr.io/mcp",
+      "description": "MCP server for provisioning virtual phone numbers and receiving SMS/OTP messages, enabling AI agents to automate SMS verification flows and OTP testing workflows.",
+      "category": "developer-tools",
+      "tags": [
+        "sms",
+        "otp",
+        "phone",
+        "verification",
+        "testing",
+        "automation"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Hummingbot MCP",
+      "url": "https://github.com/hummingbot/mcp",
+      "description": "Official Hummingbot MCP server enabling AI assistants (Claude, Gemini, ChatGPT) to control Hummingbot trading infrastructure using natural language \u2014 portfolio data, trading tools, and multi-step workflows.",
+      "category": "finance",
+      "tags": [
+        "trading",
+        "crypto",
+        "hummingbot",
+        "market-making",
+        "algorithmic-trading",
+        "dex",
+        "cex"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "altFINS MCP",
+      "url": "https://mcp.altfins.com/mcp",
+      "description": "Remote MCP server for altFINS crypto analytics platform, providing AI agents access to 150+ pre-computed technical indicators, 7 years of historical data, and 130+ standardized trading signals across thousands of coins.",
+      "category": "finance",
+      "tags": [
+        "crypto",
+        "analytics",
+        "trading-signals",
+        "technical-analysis",
+        "indicators",
+        "altfins"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "PaladinFi Swap MCP",
+      "url": "https://github.com/paladinfi/paladin-swap-mcp",
+      "description": "Multi-aggregator DeFi swap router for AI agents on Base, querying 0x and Velora in parallel for optimal pricing. Provides swap quotes with slippage protection, risk checks, and non-custodial execution.",
+      "category": "finance",
+      "tags": [
+        "defi",
+        "swap",
+        "base",
+        "evm",
+        "web3",
+        "non-custodial",
+        "aggregator"
+      ],
+      "source": "official",
+      "status": "beta",
+      "platform": "mcp"
+    },
+    {
+      "name": "RAG Code MCP",
+      "url": "https://github.com/doITmagic/rag-code-mcp",
+      "description": "Privacy-first semantic code navigation MCP server using RAG with deep AST support for Go, PHP/Laravel, JS/TS/React, and Python. Runs 100% locally via Ollama with Qdrant vector search.",
+      "category": "ai-ml",
+      "tags": [
+        "rag",
+        "semantic-search",
+        "code-navigation",
+        "ollama",
+        "qdrant",
+        "local",
+        "embeddings"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "3DStreet MCP",
+      "url": "https://github.com/3DStreet/3dstreet-mcp",
+      "description": "MCP server that lets Claude and other AI assistants drive 3DStreet's browser-based 3D street scene editor, controlling scene composition, object placement, and environment settings via natural language.",
+      "category": "creative",
+      "tags": [
+        "3d",
+        "urban-planning",
+        "street",
+        "scene-editing",
+        "browser",
+        "visualization"
+      ],
+      "source": "official",
+      "status": "experimental",
+      "platform": "mcp"
+    },
+    {
+      "name": "build123d MCP",
+      "url": "https://github.com/pzfreo/build123d-mcp",
+      "description": "MCP server for build123d (Python CAD library) that helps AI assistants create accurate 3D CAD models by providing structured access to build123d's API, shapes, and operations.",
+      "category": "creative",
+      "tags": [
+        "3d",
+        "cad",
+        "build123d",
+        "python",
+        "modeling",
+        "engineering"
+      ],
+      "source": "community",
+      "status": "experimental",
+      "platform": "mcp"
+    },
+    {
+      "name": "Canvas MCP",
+      "url": "https://github.com/vishalsachdev/canvas-mcp",
+      "description": "Canvas LMS MCP server with 80+ tools and 5 agent skills for students and educators. Enables AI assistants to access courses, assignments, grades, discussions, and announcements across the Canvas e-learning platform.",
+      "category": "education",
+      "tags": [
+        "canvas",
+        "lms",
+        "e-learning",
+        "courses",
+        "assignments",
+        "grades",
+        "education"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
+      "name": "Upstash MCP Server",
+      "url": "https://github.com/upstash/mcp-server",
+      "description": "Official Upstash MCP server allowing AI agents to manage and debug Upstash resources across Redis databases, QStash message queues, and Workflow orchestration services.",
+      "category": "cloud",
+      "tags": [
+        "upstash",
+        "redis",
+        "qstash",
+        "serverless",
+        "queue",
+        "workflow"
       ],
       "source": "official",
       "status": "live",
