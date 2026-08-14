@@ -1,4 +1,10 @@
 {
   "description": "MCP servers tested and rejected. Never add these back to the catalog.",
-  "entries": []
+  "entries": [
+    {
+      "name": "Toprank",
+      "url": "https://github.com/nowork-studio/toprank",
+      "reason": "Self-promotion PR (#1). A Claude Code plugin, not an MCP server — wrong catalog and low signal."
+    }
+  ]
 }
