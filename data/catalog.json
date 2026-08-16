@@ -7056,6 +7056,22 @@
       "source": "official",
       "status": "live",
       "platform": "mcp"
+    },
+    {
+      "name": "Agent QA",
+      "url": "https://github.com/vostride/agent-qa",
+      "description": "FSL-1.1-ALv2 source-available application QA server for defining, validating, running, and triaging natural-language web and mobile tests; configured providers may charge separately.",
+      "category": "developer-tools",
+      "tags": [
+        "testing",
+        "quality-assurance",
+        "browser",
+        "mobile",
+        "automation"
+      ],
+      "source": "official",
+      "status": "live",
+      "platform": "mcp"
     }
   ]
 }
