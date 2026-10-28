@@ -6134,6 +6134,21 @@
       "platform": "mcp"
     },
     {
+      "name": "GSCmate",
+      "url": "https://gscmate.com",
+      "description": "Hosted, read-only Google Search Console MCP using OAuth 2.1. Query Search Analytics, properties, sitemaps, and URL inspection from AI agents. Paid plans start at USD 19/month.",
+      "category": "marketing",
+      "tags": [
+        "seo",
+        "google-search-console",
+        "analytics",
+        "oauth"
+      ],
+      "source": "community",
+      "status": "live",
+      "platform": "mcp"
+    },
+    {
       "name": "Nuclei MCP",
       "url": "https://github.com/intelligent-ears/pd-tools-mcp",
       "description": "MCP server integrating ProjectDiscovery tools including Nuclei vulnerability scanner. Template-based scanning for web apps, APIs, and cloud configs.",
